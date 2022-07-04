@@ -5,8 +5,8 @@ permalink: /
 
 profile:
   align: right
-  image: kc_crop.jpeg
-  image_cicular: false # crops the image to make it circular
+  image: image1.jpeg
+  image_cicular: true # crops the image to make it circular
   address: >
     <p>Yonsei Univeristy</p>
     <p>Yonsei-ro, 50</p>
