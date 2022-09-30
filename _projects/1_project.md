@@ -4,7 +4,7 @@ title: Smartphone-based computational microscope
 description: 
 img: assets/img/image_project1.png
 importance: 1
-category: work
+category: 
 ---
 
 Portable Microscope Using Smartphone
