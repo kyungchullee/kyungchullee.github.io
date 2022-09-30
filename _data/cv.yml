@@ -3,10 +3,7 @@
   contents:
     - name: Full Name
       value: Kyung Chul Lee
-    - name: Date of Birth
-      value: 24th July 1992
-    - name: Languages
-      value: English, Korean
+
 
 - title: Experience
   type: time_table
