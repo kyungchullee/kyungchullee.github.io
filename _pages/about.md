@@ -7,11 +7,6 @@ profile:
   align: right
   image: image1.jpg
   image_cicular: true # crops the image to make it circular
-  address: 
-    <p>[lab page at Duke University](https://sites.google.com/oisl.me/oisl/)</p>
-	<p>[lab page at Yonsei University](http://horstmeyer.pratt.duke.edu/)</p>
-    <p>[github](https://github.com/kyungchullee)</p>
-    <p>North Carolina, the United States of America</p>
 
 social: true  # includes social icons at the bottom of the page
 ---
@@ -27,3 +22,11 @@ My research is focused on computational imaging and microscopy, functional imagi
 - A complex constrianed phase retrieval algorithm based on alternating direction method of multipliers for Fourier ptychographic microscopy
 - High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy
 
+**Links**
+
+<p>[lab page at Duke University](https://sites.google.com/oisl.me/oisl/)</p>
+<p>[lab page at Yonsei University](http://horstmeyer.pratt.duke.edu/)</p>
+<p>[github](https://github.com/kyungchullee)</p>
+<p>North Carolina, the United States of America</p>
+
+	
