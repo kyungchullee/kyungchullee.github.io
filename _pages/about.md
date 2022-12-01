@@ -9,7 +9,19 @@ profile:
   image_cicular: true # crops the image to make it circular
 
 social: true  # includes social icons at the bottom of the page
+Address:
+North Carolina, the United States of America
+[lab page at Duke University](https://sites.google.com/oisl.me/oisl/)
+[lab page at Yonsei University](http://horstmeyer.pratt.duke.edu/)
+[github](https://github.com/kyungchullee)
+
 ---
+
+
+
+
+
+
 
 I am a visiting PhD student in BME department at Duke university, jointly advised by Profs. Roarke Horstmeyer and Seung Ah Lee. My research is supported in part by the Graduate Biomedical Research Fellowship funded by Korea government.
 
@@ -23,10 +35,3 @@ My research is focused on computational imaging and microscopy, functional imagi
 - High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy
 
 **Links**
-
-<p>[lab page at Duke University](https://sites.google.com/oisl.me/oisl/)</p>
-<p>[lab page at Yonsei University](http://horstmeyer.pratt.duke.edu/)</p>
-<p>[github](https://github.com/kyungchullee)</p>
-<p>North Carolina, the United States of America</p>
-
-	
