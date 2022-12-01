@@ -7,7 +7,7 @@ profile:
   align: right
   image: image1.jpg
   image_cicular: true # crops the image to make it circular
-  address: >
+  address: 
     <p>[lab page at Duke University](https://sites.google.com/oisl.me/oisl/)</p>
 	<p>[lab page at Yonsei University](http://horstmeyer.pratt.duke.edu/)</p>
     <p>[github](https://github.com/kyungchullee)</p>
