@@ -32,9 +32,11 @@ My research is focused on computational imaging and microscopy, functional imagi
 
 **Links**
 
-* North Carolina, the United States of America
-* [lab page at Duke University](http://horstmeyer.pratt.duke.edu/)
-* [lab page at Yonsei University](https://sites.google.com/oisl.me/oisl/)
-* [github](https://github.com/kyungchullee)
-* [mail][lkc724@yonsei.ac.kr]
+* [Lab at Duke](http://horstmeyer.pratt.duke.edu/)
+
+* [Lab at Yonsei](https://sites.google.com/oisl.me/oisl/)
+
+* [Github](https://github.com/kyungchullee)
+
+  
 
