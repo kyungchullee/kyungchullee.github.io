@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: image1.jpg
+  image: image1.jpeg
   image_cicular: true # crops the image to make it circular
 
 social: true  # includes social icons at the bottom of the page
