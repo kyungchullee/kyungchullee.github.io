@@ -9,11 +9,7 @@ profile:
   image_cicular: true # crops the image to make it circular
 
 social: true  # includes social icons at the bottom of the page
-Address:
-North Carolina, the United States of America
-[lab page at Duke University](https://sites.google.com/oisl.me/oisl/)
-[lab page at Yonsei University](http://horstmeyer.pratt.duke.edu/)
-[github](https://github.com/kyungchullee)
+
 
 ---
 
@@ -35,3 +31,9 @@ My research is focused on computational imaging and microscopy, functional imagi
 - High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy
 
 **Links**
+
+North Carolina, the United States of America
+[lab page at Duke University](https://sites.google.com/oisl.me/oisl/)
+[lab page at Yonsei University](http://horstmeyer.pratt.duke.edu/)
+[github](https://github.com/kyungchullee)
+
