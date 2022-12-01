@@ -36,5 +36,5 @@ My research is focused on computational imaging and microscopy, functional imagi
 * [lab page at Duke University](http://horstmeyer.pratt.duke.edu/)
 * [lab page at Yonsei University](https://sites.google.com/oisl.me/oisl/)
 * [github](https://github.com/kyungchullee)
-* [mail][lkc724@yonsei,ac,kr]
+* [mail][lkc724@yonsei.ac.kr]
 
