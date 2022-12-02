@@ -1,13 +1,13 @@
 {%- assign path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
 
 <figure>
-
   <picture>
     {% if site.enable_responsive_images %}
-<!--    {% for i in site.imagemagick.widths -%}
+    {% for i in site.imagemagick.widths -%}
       <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" /> 
-    {% endfor -%}  -->
+    {% endfor -%}
     {% endif %}
+
 
     <!-- Fallback to the original file -->
     <img 
