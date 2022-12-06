@@ -113,7 +113,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 blog_name: # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: #a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+permalink: #/blog/:year/:title/
 
 # Pagination
 pagination:
@@ -138,10 +138,10 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -230,8 +230,8 @@ display_tags: ['research', 'travel', 'reading'] # this tags will be dispalyed on
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: 
+  first_name: 
 
   style: apa
   locale: en
@@ -320,7 +320,7 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         false   # enables image zoom feature (as on medium.com)
-enable_progressbar:         false   # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
 # Library versions
