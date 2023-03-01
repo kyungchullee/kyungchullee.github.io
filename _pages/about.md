@@ -28,7 +28,7 @@ My research is focused on computational imaging and microscopy, functional imagi
 - Smartphone based compuational microscope
 - Design and single-shot fabrication of lensless cameras with arbitrary point spread functions
 - A complex constrianed phase retrieval algorithm based on alternating direction method of multipliers for Fourier ptychographic microscopy
-- High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy
+- High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy using generalizable neural network
 
 **Links**
 
