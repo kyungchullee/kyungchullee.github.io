@@ -15,40 +15,30 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-
-
-
-
 I am a visiting PhD student in BME department at Duke university, jointly advised by Profs. Roarke Horstmeyer and Seung Ah Lee. My research is supported in part by the Graduate Biomedical Research Fellowship funded by Korea government.
 
 My research is focused on computational imaging and microscopy, functional imaging system design, and machine-learning for bio-medical imaging. I have particular experience with Fourier Ptychographic Microscopy (FPM), phase mask design for lensless imaging, and speckle imaging using speckle statistics. I am also open to exploring computational deep learning techniques aiming for joint optimization of hardware and software.
 
 
 
-
-
 **Projects**
 
-- Smartphone based compuational microscope
+- [Smartphone based compuational microscope](https://pubs.acs.org/doi/10.1021/acsphotonics.1c00350)
 
-
-
-[![smartphoneFP](../assets/img/smartphoneFP.png){: width="50%" height="50%"}](https://pubs.acs.org/doi/10.1021/acsphotonics.1c00350)
-
-
-
-- Design and single-shot fabrication of lensless cameras with arbitrary point spread functions
-
-[![PM](../assets/img/PM.jpg){: width="50%" height="50%"}](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)
+- [Design and single-shot fabrication of lensless cameras with arbitrary point spread functions](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)
 
 - A complex constrianed phase retrieval algorithm based on alternating direction method of multipliers for Fourier ptychographic microscopy
-- High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy using generalizable neural network
+- [High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy using generalizable neural network](https://arxiv.org/abs/2303.08140)
+- [Speckle correlation imaging for blood flow velocimetry](https://opg.optica.org/optica/fulltext.cfm?uri=optica-9-11-1227&id=513169)
+- Diffuse correlation spectroscopy with parallelized single-photon detection
+
+
 
 **Links**
 
-* [Lab at Duke](http://horstmeyer.pratt.duke.edu/)
+* [Optical Imaging Systems Lab at Yonsei](https://sites.google.com/oisl.me/oisl/)
 
-* [Lab at Yonsei](https://sites.google.com/oisl.me/oisl/)
+* [Computational Optics Lab at Duke](http://horstmeyer.pratt.duke.edu/)
 
 * [Github](https://github.com/kyungchullee)
 
