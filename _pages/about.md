@@ -25,9 +25,9 @@ My research is focused on computational imaging and microscopy, functional imagi
 
 
 
-```
 ![GitHub Logo](/assets/images/image_project1.png)
-```
+
+
 
 **Projects**
 
