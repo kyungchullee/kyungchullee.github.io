@@ -23,6 +23,12 @@ I am a visiting PhD student in BME department at Duke university, jointly advise
 
 My research is focused on computational imaging and microscopy, functional imaging system design, and machine-learning for bio-medical imaging. I have particular experience with Fourier Ptychographic Microscopy (FPM), phase mask design for lensless imaging, and speckle imaging using speckle statistics. I am also open to exploring computational deep learning techniques aiming for joint optimization of hardware and software.
 
+
+
+```
+![GitHub Logo](/assets/images/image_project1.png)
+```
+
 **Projects**
 
 - Smartphone based compuational microscope
