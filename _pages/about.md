@@ -6,8 +6,9 @@ permalink: /
 profile:
   align: right
   image: image1.png
-  image_cicular: false # crops the image to make it circular
+  image_cicular: true # crops the image to make it circular
 
+news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 
 
