@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-03-16 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+I had a talk for my virtual staining work at the 3rd Quantitative Phase Imaging Symphosium.
