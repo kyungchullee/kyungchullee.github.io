@@ -33,7 +33,7 @@ We applied our system to observe a biological sample. We imaged unstained blood 
 
 [![demo](https://img.youtube.com/vi/71nAhFhXI4A/0.jpg)](https://youtu.be/71nAhFhXI4A)
 
+**Reference**
 
-
-
+* Lee, Kyung Chul, et al. "[A smartphone-based Fourier ptychographic microscope using the display screen for illumination](https://pubs.acs.org/doi/full/10.1021/acsphotonics.1c00350?casa_token=g56dQUUGRr8AAAAA%3ABEYt0ISeZjrmEZLLuQZ6IBbzQdO4mNwCBAWM9bGmJg6qBQJ0s6JVoi3BoWj-6mUQWwEjJMfdlAOWSdgqOA)." *ACS Photonics* 8.5 (2021): 1307-1315.
 

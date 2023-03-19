@@ -1,12 +1,12 @@
 ---
 layout: photo_set
-title: Acknowledgement
+title: Acknowledgements
 permalink: /ACK/
 description: "An example photo gallery."
 
 
 photos:
-    set: Acknowledgement
+    set: Acknowledgements
     size: 4
 
 
