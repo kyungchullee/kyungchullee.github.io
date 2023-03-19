@@ -1,13 +1,13 @@
 ---
 layout: photo_set
-title: berlin
-permalink: /example1/
+title: Acknowledgement
+permalink: /ACK/
 description: "An example photo gallery."
 
 
 photos:
-    set: berlin
-    size: 3
+    set: Acknowledgement
+    size: 4
 
 
 ---
