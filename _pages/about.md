@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I am a visiting PhD student in BME department at Duke university, jointly advised by Profs. Roarke Horstmeyer and Seung Ah Lee. My research is supported in part by the Graduate Biomedical Research Fellowship funded by Korea government.
+I’m currently a PhD student in Electrical Engineering at Yonsei University advised by Prof. Seung Ah Lee. Additionally, I had the opportunity to work in the Biomedical Engineering department at Duke University with Prof. Roarke Horstmeyer’s lab supported by the Graduate Biomedical Research Fellowship funded by the Korean government. I enjoy chats and collaborative work with individuals who share a passion for their work :)
 
 My research is focused on computational imaging and microscopy, functional imaging system design, and machine-learning for bio-medical imaging. I have particular experience with Fourier Ptychographic Microscopy (FPM), phase mask design for lensless imaging, and speckle imaging using speckle statistics. I am also open to exploring computational deep learning techniques aiming for joint optimization of hardware and software.
 
@@ -25,7 +25,7 @@ My research is focused on computational imaging and microscopy, functional imagi
 ## projects
 
 - [Smartphone based compuational microscope](https://pubs.acs.org/doi/10.1021/acsphotonics.1c00350)
-  - showcased at the [CES 2023](https://www.ces.tech/)
+  - showcased at [the CES 2023](https://www.ces.tech/)
   - highlighted by [the press](https://www.yonsei.ac.kr/_custom/yonsei/_app/ocx/news/app.jsp?mode=view&ar_seq=20230109090829964006&sr_volume=0&list_mode=list&sr_site=S&pager.offset=0)
 - [Phase mask design for lensless photography](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)
   - highlighted by [the press](http://www.astronomer.rocks/news/articleView.html?idxno=90516)
@@ -43,6 +43,8 @@ My research is focused on computational imaging and microscopy, functional imagi
 * [Optical Imaging Systems Lab at Yonsei](https://sites.google.com/oisl.me/oisl/)
 
 * [Computational Optics Lab at Duke](http://horstmeyer.pratt.duke.edu/)
+
+* [LinkedIn](https://www.linkedin.com/in/kyung-chul-lee-31374b15b/)
 
 * [Github](https://github.com/kyungchullee)
 
