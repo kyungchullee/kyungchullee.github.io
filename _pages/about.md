@@ -47,9 +47,5 @@ My research is focused on computational optics and imaging, functional imaging s
 
 * [Computational Optics Lab at Duke University](http://horstmeyer.pratt.duke.edu/)
 
-* [LinkedIn](https://www.linkedin.com/in/kyung-chul-lee-31374b15b/)
-
-* [Github](https://github.com/kyungchullee)
-
   
 
