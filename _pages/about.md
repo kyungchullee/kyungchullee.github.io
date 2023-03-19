@@ -24,13 +24,12 @@ My research is focused on computational imaging and microscopy, functional imagi
 **Projects**
 
 - [Smartphone based compuational microscope](https://pubs.acs.org/doi/10.1021/acsphotonics.1c00350)
-
 - [Design and single-shot fabrication of lensless cameras with arbitrary point spread functions](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)
-
-- A complex constrianed phase retrieval algorithm based on alternating direction method of multipliers for Fourier ptychographic microscopy
 - [High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy using generalizable neural network](https://arxiv.org/abs/2303.08140)
 - [Speckle correlation imaging for blood flow velocimetry](https://opg.optica.org/optica/fulltext.cfm?uri=optica-9-11-1227&id=513169)
+- A complex constrianed phase retrieval algorithm based on alternating direction method of multipliers for Fourier ptychographic microscopy
 - Diffuse correlation spectroscopy with parallelized single-photon detection
+- Compuational gigapixel microscopy with multi-camera array microscope
 
 
 

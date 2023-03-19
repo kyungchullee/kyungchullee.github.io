@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Portable microscope on a smartphone via computational imaging
-description: a project with a background image
+title: 
+description: Portable microscope on a smartphone via computational imaging
 img: assets/img/smartphoneFP.png
 importance: 1
 category: work

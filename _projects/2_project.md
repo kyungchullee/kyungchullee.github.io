@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Lensless photography
-description: a project with a background image
-img: assets/img/PM.png
+title: 
+description: Design and single-shot fabrication of lensless cameras with arbitrary point spread functions
+img: assets/img/PM.jpg
 importance: 2
 category: work
 ---
