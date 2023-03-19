@@ -8,7 +8,7 @@ photos:
     set: berlin
     size: 3
 
-nav: false
+nav: true
 nav_order: 3
 ---
 
