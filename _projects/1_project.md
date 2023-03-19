@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title:  
 description: Portable microscope on a smartphone via computational imaging
 img: assets/img/smartphoneFP.jpg
 importance: 1
