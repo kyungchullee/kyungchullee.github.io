@@ -25,14 +25,18 @@ My research is focused on computational imaging and microscopy, functional imagi
 
 
 
-![GitHub Logo](/assets/images/image_project1.png)
-
 
 
 **Projects**
 
 - Smartphone based compuational microscope
+
+<img src="https://user-images.githubusercontent.com/46557281/226158581-67dc938d-f07e-4fa7-8934-c15de9968ab3.png" alt="smartphoneFP" style="zoom:20%;" /></center>
+
 - Design and single-shot fabrication of lensless cameras with arbitrary point spread functions
+
+<img src="https://user-images.githubusercontent.com/46557281/226158496-154730fb-7e38-449c-a37f-cc4378c2f1b3.jpg" alt="PM" style="zoom:21%;" /></center>
+
 - A complex constrianed phase retrieval algorithm based on alternating direction method of multipliers for Fourier ptychographic microscopy
 - High-throughput phase-guided digital histological staining based on Fourier ptychographic microscopy using generalizable neural network
 
