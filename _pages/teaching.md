@@ -1,9 +1,14 @@
 ---
-layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
+layout: photo_set
+title: Berlin
+permalink: /berlin/
+description: "An example photo gallery."
+
+photos:
+    set: berlin
+    size: 3
+
+nav: false
 nav_order: 3
 ---
 
