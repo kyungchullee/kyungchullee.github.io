@@ -41,9 +41,9 @@ My research is focused on computational optics and imaging, functional imaging s
 
 ## links
 
-* [Optical Imaging Systems Lab at Yonsei](https://sites.google.com/oisl.me/oisl/)
+* [Optical Imaging Systems Lab at Yonsei University](https://sites.google.com/oisl.me/oisl/)
 
-* [Computational Optics Lab at Duke](http://horstmeyer.pratt.duke.edu/)
+* [Computational Optics Lab at Duke University](http://horstmeyer.pratt.duke.edu/)
 
 * [LinkedIn](https://www.linkedin.com/in/kyung-chul-lee-31374b15b/)
 
