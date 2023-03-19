@@ -22,7 +22,7 @@ My research is focused on computational imaging and microscopy, functional imagi
 
 
 
-**Projects**
+## projects
 
 - [Smartphone based compuational microscope](https://pubs.acs.org/doi/10.1021/acsphotonics.1c00350)
 - [Design and single-shot fabrication of lensless cameras with arbitrary point spread functions](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)
@@ -34,7 +34,7 @@ My research is focused on computational imaging and microscopy, functional imagi
 
 
 
-**Links**
+## links
 
 * [Optical Imaging Systems Lab at Yonsei](https://sites.google.com/oisl.me/oisl/)
 

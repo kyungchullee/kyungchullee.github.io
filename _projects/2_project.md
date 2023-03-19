@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: project 2
 description: Design and single-shot fabrication of lensless cameras with arbitrary point spread functions
 img: assets/img/PM.jpg
 importance: 2
