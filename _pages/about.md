@@ -25,7 +25,7 @@ My research is focused on computational optics and imaging, functional imaging s
 ## projects
 
 - [Smartphone based compuational microscope](https://pubs.acs.org/doi/10.1021/acsphotonics.1c00350)
-  - showcased at [the CES 2023](https://www.ces.tech/)
+  - showcased at [the CES 2023](https://youtu.be/wgcTCEfN2cE?t=29)
   - highlighted by [the press](https://www.yonsei.ac.kr/_custom/yonsei/_app/ocx/news/app.jsp?mode=view&ar_seq=20230109090829964006&sr_volume=0&list_mode=list&sr_site=S&pager.offset=0)
 - [Phase mask design for lensless photography](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)
   - featured as a cover article and top downloads for the January issue of [Optica](https://opg.optica.org/optica/aboutthecover.cfm?volume=10&issue=1)
