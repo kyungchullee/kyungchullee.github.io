@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-03-15 
+date: 2022-06-01 
 inline: true
 ---
 
-I gave a talk for my virtual staining work at the [3rd Quantitative Phase Imaging Symphosium](https://bmokaist.wordpress.com/2023/02/18/the-3rd-quantitative-phase-imaging-symposium/).
+I grant the Graduate Biomedical Research Fellowship funded by the Korean government and will visit Duke University for a year.
 
