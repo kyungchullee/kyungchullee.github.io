@@ -11,8 +11,6 @@ horizontal: false
 
 <!-- pages/projects.md -->
 
-Computational optics is a multidisciplinary field that combines optics, mathematics, computer science, and engineering to design and optimize optical systems and devices. I am interested in all aspects of computational optics, from designing computational algorithms to building innovative imaging devices and applying them to real-world systems.
-
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -31,6 +29,8 @@ Computational optics is a multidisciplinary field that combines optics, mathemat
   </div>
   {%- else -%}
   <div class="grid">
+    <p>Computational optics is a multidisciplinary field that combines optics, mathematics, computer science, and engineering to design and optimize optical systems and devices. I am interested in all aspects of computational optics, from designing computational algorithms to building innovative imaging devices and applying them to real-world systems.
+    </p>
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
