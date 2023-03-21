@@ -13,6 +13,8 @@ horizontal: false
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
+  <p>Computational optics is a multidisciplinary field that combines optics, mathematics, computer science, and engineering to design and optimize optical systems and devices. I am interested in all aspects of computational optics, from designing computational algorithms to building innovative imaging devices and applying them to real-world systems.
+    </p>
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
@@ -29,8 +31,6 @@ horizontal: false
   </div>
   {%- else -%}
   <div class="grid">
-    <p>Computational optics is a multidisciplinary field that combines optics, mathematics, computer science, and engineering to design and optimize optical systems and devices. I am interested in all aspects of computational optics, from designing computational algorithms to building innovative imaging devices and applying them to real-world systems.
-    </p>
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
@@ -42,6 +42,7 @@ horizontal: false
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
+
 
 
   <div class="container">
