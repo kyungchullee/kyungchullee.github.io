@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 1
-display_categories: current research project, previous research project, interactive installation
+display_categories: 
 horizontal: false
 ---
 
