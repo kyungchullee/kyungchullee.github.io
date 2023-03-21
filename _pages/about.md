@@ -22,23 +22,6 @@ My research is focused on computational optics and imaging, functional imaging s
 
 
 
-## projects
-
-- [Smartphone based compuational microscope](https://pubs.acs.org/doi/10.1021/acsphotonics.1c00350)
-  - showcased at [the CES 2023](https://youtu.be/wgcTCEfN2cE?t=29)
-  - highlighted by [the press](https://www.yonsei.ac.kr/_custom/yonsei/_app/ocx/news/app.jsp?mode=view&ar_seq=20230109090829964006&sr_volume=0&list_mode=list&sr_site=S&pager.offset=0)
-- [Phase mask design for lensless photography](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)
-  - featured as a cover article and top downloads for the January issue of [Optica](https://opg.optica.org/optica/aboutthecover.cfm?volume=10&issue=1)
-  - highlighted by [the press](http://www.astronomer.rocks/news/articleView.html?idxno=90516)
-- [Speckle correlation imaging for blood flow velocimetry](https://opg.optica.org/optica/fulltext.cfm?uri=optica-9-11-1227&id=513169)
-  - highlighted by [the press](https://news.heraldcorp.com/view.php?ud=20221221000480)
-- Phase retrieval algorithm design for computational optics
-- [Virtual staining using generalizable neural network](https://arxiv.org/abs/2303.08140)
-- Diffuse correlation spectroscopy with parallelized single-photon detection
-- [Compuational gigapixel microscopy with multi-camera array microscope](https://mcam.deepimaging.io/)
-
-
-
 ## links
 
 * [CV](https://drive.google.com/file/d/190DdQqv5c-hBW897_1mqZ6EmTQRnp427/view?usp=share_link)
