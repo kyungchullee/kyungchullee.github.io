@@ -4,7 +4,7 @@ title: Design and single-shot fabrication of lensless cameras with arbitrary poi
 description: 
 img: assets/img/PM.jpg
 importance: 2
-category: work
+category: previous research project
 ---
 
 Lensless cameras have emerged as a powerful compact imaging system with diverse computational imaging capabilities. Here, we developed a method for the high-throughput fabrication of lensless cameras designed with arbitrary point spread functions and showed real-world imaging applications including deep-learning based image reconstruction and optical template matching.
