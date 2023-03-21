@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Virtual Staining
+title: Virtual staining using generalizable neural network
 description: 
 img: assets/img/tissue.jpg
 importance: 2
