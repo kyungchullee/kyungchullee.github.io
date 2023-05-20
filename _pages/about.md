@@ -24,7 +24,7 @@ My research is focused on computational optics and imaging, functional imaging s
 
 ## links
 
-* [CV](https://drive.google.com/file/d/190DdQqv5c-hBW897_1mqZ6EmTQRnp427/view?usp=share_link)
+* [CV](https://drive.google.com/file/d/1GPf-75I7dchSuVe8-0HYK-kmRek1Rr6t/view?usp=sharing)
 
 * [Optical Imaging Systems Lab at Yonsei University](https://sites.google.com/oisl.me/oisl/)
 
