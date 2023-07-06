@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Virtual staining using generalizable neural network
+title: Virtual Staining for Digital Pathology
 description: 
 img: assets/img/tissue.jpg
 importance: 2

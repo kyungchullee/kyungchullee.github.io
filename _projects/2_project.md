@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design and single-shot fabrication of lensless cameras with arbitrary point spread functions
+title: Scalable Lensless Camera
 description: 
 img: assets/img/PM.jpg
 importance: 2
