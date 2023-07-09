@@ -19,9 +19,13 @@ We developed a method for the high-throughput fabrication of lensless cameras de
 
 
 
-[<img src="/assets/img/lensless_camera.jpg" alt="lensless_camera" style="zoom:50%;" />]
+```null
+<p align="center">
+```
 
+<img src="/assets/img/lensless_camera.jpg" alt="lensless_camera" style="zoom:50%;" />
 
+</p>
 
 Reference
 
