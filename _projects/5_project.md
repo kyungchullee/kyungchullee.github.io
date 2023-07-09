@@ -4,7 +4,7 @@ title: Compuational gigapixel microscopy with multi-camera array microscope
 description: 
 img: assets/img/mcam.jpg
 importance: 2
-category: current research project
+category: research project
 ---
 
 To be updated 

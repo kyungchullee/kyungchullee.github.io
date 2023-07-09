@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Portable microscope on a smartphone via computational imaging 
+title: Portable microscope on a smartphone
 description: 
 img: assets/img/smartphoneFP.jpg
 importance: 1
-category: previous research project
+category: research project
 ---
 
 **Portable Microscope Using Smartphone**
