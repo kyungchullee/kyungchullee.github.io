@@ -19,7 +19,7 @@ We developed a method for the high-throughput fabrication of lensless cameras de
 
 
 
-![lensless camera](/assets/img/lensless_camera.png){: width="100" }{: .align-center}
+![lensless camera](/assets/img/lensless_camera.png){: width="100%" }{: .align-center}
 
 
 
