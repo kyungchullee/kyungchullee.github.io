@@ -17,7 +17,11 @@ In these lensless cameras, the overall field of view (FOV) and image quality are
 
 We developed a method for the high-throughput fabrication of lensless cameras designed with arbitrary point spread functions and showed real-world imaging applications including deep-learning based image reconstruction and optical template matching.
 
-	<img src="/assets/img/lensless_camera.jpg" alt="lensless_camera" style="zoom:50%;" />
+
+
+![lensless camera](/assets/img/lensless_camera.jpg){: .align-center}
+
+
 
 
 
