@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Algorithm design for computational optics
+title: Phase Retrieval With Convex Optimization
 description: 
 img: assets/img/smear.jpg
 importance: 2

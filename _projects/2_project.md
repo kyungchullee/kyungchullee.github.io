@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scalable Lensless Camera
+title: Flat Optics Design for Lensless Camera
 description: 
 img: assets/img/PM.jpg
 importance: 2
