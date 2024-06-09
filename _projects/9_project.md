@@ -1,8 +1,8 @@
 ---
 layout: page
-title: High-Speed Lensless Eye Tracker Design
+title: High-Speed Lensless Eye Tracker
 description: 
-img: assets/img/eyetracker.jpg
+img: assets/img/eyetracker.png
 importance: 2
 category: research project
 ---

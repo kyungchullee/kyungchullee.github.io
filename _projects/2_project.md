@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Flat Optics Design for Lensless Camera
+title: Phase Mask Design for Lensless Camera
 description: 
 img: assets/img/PM.jpg
 importance: 2
