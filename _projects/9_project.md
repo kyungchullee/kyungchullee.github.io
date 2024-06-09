@@ -2,7 +2,7 @@
 layout: page
 title: High-Speed Lensless Eye Tracker Design
 description: 
-img: assets/img/HSI.png
+img: assets/img/eyetracker.jpg
 importance: 2
 category: research project
 ---
