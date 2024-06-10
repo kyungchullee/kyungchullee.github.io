@@ -4,7 +4,7 @@ title: Portable microscope on a smartphone
 description: 
 img: assets/img/smartphoneFP.jpg
 importance: 1
-category: research project
+category: computational microscopy
 ---
 
 **Portable Microscope Using Smartphone**

@@ -4,11 +4,11 @@ title: Compuational gigapixel microscopy with multi-camera array microscope
 description: 
 img: assets/img/mcam.jpg
 importance: 2
-category: research project
+category: computational microscopy
 ---
 
-To be updated 
 
-Reference
+
+**Reference**
 
 * [Website](https://mcam.deepimaging.io/) at Roarke Horstmeyer's Lab in Duke University

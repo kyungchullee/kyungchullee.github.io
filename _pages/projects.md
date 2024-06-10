@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 1
-display_categories: [research project, artistic project]
+display_categories: [computational microscopy, computational cmaeras, artistic project]
 horizontal: false
 ---
 
