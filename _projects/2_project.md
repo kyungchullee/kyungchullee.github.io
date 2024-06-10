@@ -26,7 +26,7 @@ We developed a method for the high-throughput fabrication of lensless cameras de
 
 
 
-Reference
+**Reference**
 
 * Lee, Kyung Chul, et al. "[Design and single-shot fabrication of lensless cameras with arbitrary point spread functions.](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)" *Optica* 10.1 (2023): 72-80.
 
