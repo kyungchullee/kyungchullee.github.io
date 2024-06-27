@@ -444,15 +444,14 @@ category: computational microscopy
             </center>
             <center>
                 <div class="affiliations">
-                    <span><sup>1</sup> Yonsei University </span> &nbsp
+                    <span><sup>1</sup> Yonsei University </span> 
                     <span><sup>2</sup> Duke University
                     <span><sup>3</sup> Chung-Ang University
                     </span> <br />
-                    <span><sup>✉</sup> Corresponding Authors</span> &nbsp <br />
-                </div>
+                    <span><sup>✉</sup> Corresponding Authors</span> <br />
+    
 
 
-            </center>
     
             <div style="clear: both">
                 <div class="paper-btn-parent">
@@ -494,180 +493,20 @@ category: computational microscopy
                     Fourier ptychography (FP) is a powerful computational imaging technique that provides both super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and the pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements. The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling. 
                 </p>
             </div>
-            </section>
+    
             <section id="method" />
             <hr>
             <h2>What We Contribute?</h2>
-            <b>TL;DR:</b> derivation of the algorithm for TV-regularized FP reconstruction algorithm via ADMM.
+            - derivation of the algorithm for TV-regularized FP reconstruction algorithm via ADMM. <br>
             
-    validation of Tikhonov regularization on the pupil function that ensures a smooth pupil phase profile.
+    				- validation of Tikhonov regularization on the pupil function that ensures a smooth pupil phase profile.<br>
     
-    demonstration of the performance of our method with extremely low measurement SNR and Fourier-space subsampling for reduced number of measurements. 
-    application of our algorithm using real experimental data, which shows the effectiveness of TV-regularizer for both super-resolution and phase imaging of biological specimens under challenging imaging conditions.
+    - demonstration of the performance of our method with extremely low measurement SNR and Fourier-space subsampling for reduced number of measurements. <br>
+    - application of our algorithm using real experimental data, which shows the effectiveness of TV-regularizer for both super-resolution and phase imaging of biological specimens under challenging imaging conditions. <br>
     
     
 
 
-
-
-
-
-
-<!--
-
-        </div>
-        </section>
-    
-        <section id="results">
-            <hr>
-            <h2>Some Results (Expand it if you want to see the results)</h2>
-
-
-            <h3> Learn the lithography system.</h3>
-    
-            <div class="expandable-section">
-                <button class="toggle-button"> Expand</button>
-                <div class="content">
-                    <!-- Learning the lithography system.
-             -->
-    
-                    <center>
-                        <figure>
-                            <!-- <video class="centered" width="100%" autoplay loop muted playsinline class="video-background " >
-                    <source src="assets/gen_airplane.mp4#t=0.001" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video> -->
-                            <a>
-                                <img width="80%" src="asserts/litho_fitting.png">
-                            </a>
-                            <p class="caption">
-                                We experimentally collect a dataset to learn the neural lithography simulator.
-                            </p> <br>
-                        </figure>
-                    </center>
-
-
-                    <center>
-                        <figure>
-                            <!-- <video class="centered" width="100%" autoplay loop muted playsinline class="video-background " >
-                    <source src="assets/gen_airplane.mp4#t=0.001" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video> -->
-                            <a>
-                                <img width="80%" src="asserts/forward_prediction_results.png">
-                            </a>
-                            <p class="caption">
-                                <b> Predicting capability of the learned neural lithography simulator on three models we
-                                    explored in neural lithography. The PBL (see details in the paper) performs the best
-                                    and thus is used throughout the paper.</b> Top: The training and validation loss
-                                curves correspond to the three models explored in our work. Bottom: The corresponding
-                                average validation error map and the mean error value across the map.
-                            </p> <br>
-                        </figure>
-                    </center>
-    
-                    <!-- <center>
-            <figure>
-                <video class="centered" width="100%" loop muted autoplay playsinline class="video-background " >
-                    <source src="assets/gen_bottle.mp4#t=11" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p class="caption">
-                    Generated point clouds and reconstructed meshes of bottles (model trained on only 340 shapes).             
-                </p> <br>
-            </figure>
-            </center> -->
-                </div>
-            </div>
-
-
-            <hr>
-            <h3> Mitigate the design to manufacturing gap.</h3>
-    
-            <h4> Results on holographic optical elements.</h4>
-            <div class="expandable-section">
-                <button class="toggle-button">Expand</button>
-                <div class="content">
-                    <div>
-                        <center>
-                            <figure style="width: 100%;">
-                                <a>
-                                    <img width="80%" src="asserts/HOE_results.png">
-                                </a>
-                                <p class="caption" style="margin-bottom: 24px;"><br>
-                                    We show improvement in performance when design the holographic optical elements(HOE)
-                                    w/ our learned litho model.
-                                </p>
-                            </figure>
-                        </center>
-                    </div>
-                    <div>
-    
-                        <center>
-                            <figure style="width: 100%;">
-                                <a>
-                                    <img width="80%" src="asserts/D2_HOE_quantative.png">
-                                </a>
-                                <p class="caption" style="margin-bottom: 24px;"><br>
-                                    We <b>quantitatively</b> show improvement in performance when design the holographic
-                                    optical elements(HOE) w/ our learned litho model.
-                                </p>
-                            </figure>
-                        </center>
-                    </div>
-    
-                </div>
-            </div>
-    
-            <h4> Results on multi-level diffractive lenses which can be used in direct and computational imaging.</h4>
-    
-            <div class="expandable-section">
-                <button class="toggle-button">Expand</button>
-                <div class="content">
-                    <div>
-                        <center>
-                            <figure style="width: 100%;">
-                                <a>
-                                    <img width="60%" src="asserts/ imaging.png">
-                                </a>
-                                <p class="caption" style="margin-bottom: 24px;"><br>
-                                    <b>Imaging performance with the designed MDL</b>. A: Sketch of the setup for
-                                    characterizing the performance of MDL. B: We show our measured PSFs and direct
-                                    imaging results (i.e., w/o deconvolution) corresponding to design w/o and w/ PBL
-                                    litho model. The end of this row shows the line profiles of PSFs designed w/o or w/
-                                    different litho models. C: Computational/Indirect Imaging result of the MDL. The
-                                    lower right compares the Fourier spectrum of the designed PSFs. <b>Our method's
-                                        design enhances the contrast in direct imaging (B) and the high-frequency
-                                        imaging performance in computational imaging (C)</b>.
-                                </p>
-                            </figure>
-                        </center>
-                    </div>
-                    <div>
-    
-                        <center>
-                            <figure style="width: 100%;">
-                                <a>
-                                    <img width="80%" src="asserts/psf.png">
-                                </a>
-                                <p class="caption" style="margin-bottom: 24px;"><br>
-                                    <b>Comparison of PSFs generated by MDLs in the design and real experiment.</b> In
-                                    both the direct and indirect/computational imaging setting, the naive design w/o
-                                    lithography model has a larger deviation between the shape from the designed and
-                                    experimental PSF. In contrast, the deviation is small when we apply neural
-                                    lithography.
-                                </p>
-                            </figure>
-                        </center>
-                    </div>
-    
-                </div>
-            </div>
-
--->
-
-
-    </div>
 
 
     <script>
@@ -677,8 +516,6 @@ category: computational microscopy
             });
         });
     </script>
-
-</body>
 
 
 
