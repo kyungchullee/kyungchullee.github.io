@@ -419,43 +419,36 @@ category: computational microscopy
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
     rel='stylesheet' type='text/css'>
 
-<head>
-    <title> Neural Lithography </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <meta property="og:description" content="Neural Lithography"/> -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
 
 <body>
+
     <div class="topnav" id="myTopnav">
     </div>
 
     <div class="container">
-        <div class="paper-title">
-            <h1>
-                <font color="#5364cc">Neural Lithography</font>:
-                Close the Design to Manufacturing Gap in Computational Optics with a 'Real2Sim' Learned Photolithography
-                Simulator
-            </h1>
-        </div>
     
         <div id="authors">
             <center>
                 <div class="author-row-new">
-                    <a href="https://zcshinee.github.io/">Cheng Zheng<sup>1,✉,†</sup></a>,
-                    <a href="https://twitter.com/guangyuan_zhao">Guangyuan Zhao<sup>2,✉,†</sup></a>,
-                    <a href="https://meche.mit.edu/people/faculty/ptso@mit.edu">Peter So<sup>1</sup></a>
+                    <a href="https://kyungchullee.com/">Kyung Chul Lee<sup>1,2</sup></a>,
+                    <a>Hyesuk Chae<sup>1</sup></a>,
+                    <a>Shiqi Xu<sup>2</sup></a>,
+                    <a>Kyungwon Lee<sup>1</sup></a>,
+                    <a href="https://bme.duke.edu/faculty/roarke-horstmeyer">Roarke Horstmeyer<sup>2</sup></a>
+                    <a href="https://www.image.cau.ac.kr/home">Byung-Woo Hong<sup>3</sup></a>
+                    <a href="https://https://biomedia.yonsei.ac.kr/">Seung Ah Lee<sup>1</sup></a>                
+                    
+                    
                 </div>
             </center>
             <center>
                 <div class="affiliations">
-                    <span><sup>1</sup> Massachusetts Institute of Technology </span> &nbsp
-                    <span><sup>2</sup>The Chinese University of Hong Kong
+                    <span><sup>1</sup> Yonsei University </span> &nbsp
+                    <span><sup>2</sup> Duke University
+                    <span><sup>3</sup> Chung-Ang University
                     </span> <br />
-                    <span><sup>✉</sup> Corresponding Authors</span> &nbsp
-                    <span><sup>†</sup> Equal contribution</span> <br />
+                    <span><sup>✉</sup> Corresponding Authors</span> &nbsp <br />
                 </div>
 
 
@@ -463,17 +456,12 @@ category: computational microscopy
     
             <div style="clear: both">
                 <div class="paper-btn-parent">
-                    <a class="paper-btn" href="https://arxiv.org/abs/2309.17343">
-                        <!-- <span class="material-icons"> description </span>  -->
-                        <i class="ai ai-arxiv"></i>
-                        arXiv (Recommended Vesion)
-                    </a>
-                    <a class="paper-btn" href="https://dl.acm.org/doi/abs/10.1145/3610548.3618251">
+                    <a class="paper-btn" href="https://opg.optica.org/oe/browse.cfm">
                         <span class="material-icons"> description </span>
                         Paper
                     </a>
                     <div class="paper-btn-coming-soon">
-                        <a class="paper-btn" href="https://github.com/Neural-Litho/Neural_Lithography">
+                        <a class="paper-btn" href="https://github.com/OISL-Yonsei/FP_ADMM">
                             <!-- <span class="material-icons"> code </span> -->
                             <span class="icon">
                                 <i class="fab fa-github"></i>
@@ -485,7 +473,8 @@ category: computational microscopy
             </div>
 
 
-            <section id="teaser-image">
+    <!--
+    <section id="teaser-image">
                 <center>
                     <figure>
                         <a>
@@ -494,125 +483,37 @@ category: computational microscopy
                     </figure>
                 </center>
             </section>
-    
-            <section id="news">
-                <hr>
-                <h2>Updates</h2>
-                <div class="row">
-                    <div><span class="material-icons"> event </span> We will give several <b>invited talks</b>.
-                        Please stay tuned!<br>
-                        <b>[Nov. 4 2024]</b> <a href="https://www.lithoworkshop.org/">The 28th Lithography Workshop</a>
-                        in San
-                        Diego.<br>
-                        <b>[June. 8 2024]</b> <a href="https://www.grc.org/image-science-grs-conference/2024/">Image
-                            Science
-                            Gordon Research Seminar</a> & <a
-                            href="https://www.grc.org/image-science-conference/2024/">Gordon
-                            Research Conference</a>.<br>
-                        <b>[June. 6 2024]</b> <a
-                            href="https://www.iisb.fraunhofer.de/en/press_media/events/2024/2024-06-06to08-litho-sim-workshop.html">International
-                            Lithography Simulation Workshop</a>, Fraunhofer Institute for Integrated Systems and Device
-                        Technology IISB.<br>
-                        <b>[Mar. 19 2024]</b> <a href="https://sites.google.com/view/visionseminar">MIT Visual Computing
-                            Seminar.</a><br>
-                        <b>[Mar. 6 2024]</b> <a href="https://complightlab.com/outreach/">High-beams
-                            seminar</a>, University College London.
-                        <div><span class="material-icons"> event </span> [Oct 2023] Paper released on <a
-                                href="https://arxiv.org/abs/2309.17343">arXiv</a>!</div>
-                        <div><span class="material-icons"> event </span> [Oct 2023] The paper got accepted to
-                            <b>SIGGRAPH
-                                Asia 2023</b>!
-                        </div>
-            </section>
+    -->
+          
     
             <section id="abstract" />
             <hr>
             <h2>Abstract</h2>
             <div class="flex-row">
                 <p>
-                    We introduce neural lithography to address the 'design-to-manufacturing' gap in computational
-                    optics. Computational optics with large design degrees of freedom enable advanced functionalities
-                    and performance beyond traditional optics. However, the existing design approaches often overlook
-                    the numerical modeling of the manufacturing process, which can result in significant performance
-                    deviation between the design and the fabricated optics. To bridge this gap, we, for the first time,
-                    propose a fully differentiable design framework that integrates a pre-trained photolithography
-                    simulator into the model-based optical design loop. Leveraging a blend of physics-informed modeling
-                    and data-driven training using experimentally collected datasets, our photolithography simulator
-                    serves as a regularizer on fabrication feasibility during design, compensating for structure
-                    discrepancies introduced in the lithography process. We demonstrate the effectiveness of our
-                    approach through two typical tasks in computational optics, where we design and fabricate a
-                    holographic optical element (HOE) and a multi-level diffractive lens (MDL) using a two-photon
-                    lithography system, showcasing improved optical performance on the task-specific metrics.
+                    Fourier ptychography (FP) is a powerful computational imaging technique that provides both super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and the pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements. The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling. 
                 </p>
             </div>
             </section>
             <section id="method" />
             <hr>
             <h2>What We Contribute?</h2>
-            <b>TL;DR:</b> A real2sim pipeline to quantitatively construct a high-fidelity neural photolithography
-            simulator and a design-fabrication co-optimization framework to bridge the design-to-manufacturing gap in
-            computational optics.
+            <b>TL;DR:</b> derivation of the algorithm for TV-regularized FP reconstruction algorithm via ADMM.
+            
+    validation of Tikhonov regularization on the pupil function that ensures a smooth pupil phase profile.
     
-            <h3><u>This work identifies two obstacles in computational optics: </u></h3>
+    demonstration of the performance of our method with extremely low measurement SNR and Fourier-space subsampling for reduced number of measurements. 
+    application of our algorithm using real experimental data, which shows the effectiveness of TV-regularizer for both super-resolution and phase imaging of biological specimens under challenging imaging conditions.
     
-            <h4>1⃣ What is the "elephant in the room" in Computational Lithography?</h4>
-            - <b>High-fidelity photolithography simulator</b> | "No matter how good we can advance the computational
-            (inverse) lithography algorithm, the performance bound is grounded in the fidelity of the lithography
-            simulator."
     
-            <h4>2⃣ What hinders the progress of computational optics?</h4>
-            - One should be the <b>Design to Manufacturing gap.</b> |
-            "Yes you can design a perfect lens, but you cannot guarantee the post-manufacturing performance."
-    
-            <center>
-                <figure style="width: 100%;">
-                    <a>
-                        <img width="90%" src="asserts/two_questions.png">
-                    </a>
-                    <!-- <p class="caption" style="margin-bottom: 24px;"><br>
-                        Design and Technology (manufacturiability) co-optimization through the chained differentiable simulators.
-                    </p> -->
-                </figure>
-            </center>
-
-
-
-            <h3><u>Accordingly, our work tackles the above questions and opens up two exciting research directions:</u>
-            </h3>
-    
-            <h4> 1⃣ Real2Sim learning for 3D modelling the fabrication outcome of any real-world photolithography
-                system.</h4>
-    
-            <center>
-                <figure style="width: 100%;">
-                    <a>
-                        <img width="80%" src="asserts/digitalization_litho_system_updated.png"> 
-                    </a>
-                    <p class="caption" style="margin-bottom: 24px;"><br>
-                        Pipeline to digitalize the lithography system through the real-world measurements.
-                    </p>
-                </figure>
-            </center>
-
-
-            <h4> 2⃣ Close the Design-to-manfuctuting gap via co-optimizing the manufacturiability and the task design
-                with two intersected differentiable simulators (Litho + Task; DTCO).</h4>
-    
-            <center>
-                <figure style="width: 100%;">
-                    <a>
-                    <img width="80%" src="asserts/DTCO_updated.png"> 
-                    </a>
-                    <p class="caption" style="margin-bottom: 24px;"><br>
-                        Design Technology (Manufacturiability) Co-optimization <b> (DTCO) </b> through chained
-                        differentiable simulators.
-                    </p>
-                </figure>
-            </center>
 
 
 
 
+
+
+
+<!--
 
         </div>
         </section>
@@ -763,47 +664,7 @@ category: computational microscopy
                 </div>
             </div>
 
-
-            <section id="faq">
-                <h2>Frequently asked questions (FAQ)</h2>
-                <hr>
-    
-                <h4>1. Does this work provide a 'one-size-fits-all' litho model?</h4>
-                <b>NO</b>. Our goal isn't to learn a model that generalizes across different lithography types or
-                different modalities of a type. Instead, we present a pipeline on how to OVERFIT to a single lithography
-                system with a specific photoresist and post-processing procedure.
-    
-                <h4>2. What are the assumptions for the applicability of the learned neural litho model?</h4>
-                1⃣ No single lithography process can be perfectly represented by one white-box model. Factors like
-                optical misalignment, hardware tolerances, differences in conditions, and even temperature and humidity
-                can introduce variability.
-                2⃣ If a specific lithography system and photoresist remain consistent over time, and once digitalized
-                remain stable, a learned gray-box simulator trained on data from that environment should be effective.
-    
-                <!-- <div class="flex-row">
-            <p>
-                The hierarchical VAE architecture of LION is crucial for scalability and capturing diverse shape data. It allows the model to learn a multimodal distribution over different categories without the need for class-conditioning. We find that the shape latent
-                variables capture global shape, while the latent points model details. We validate this by fixing the shape variable to different values and only sampling different latent points.  
-            </p>
-        </div>  -->
-    
-                <section id="bibtex">
-                    <h2>Citation</h2>
-                    <hr>
-                    <pre><code>@article{zheng2023neural,
-            title={Neural Lithography: Close the Design-to-Manufacturing Gap in Computational Optics with a'Real2Sim'Learned Photolithography Simulator},
-            author={Zheng, Cheng and Zhao, Guangyuan and So, Peter TC},
-            journal={arXiv preprint arXiv:2309.17343},
-            year={2023}
-            }
-            </code></pre>
-                </section>
-    
-                <!-- <h2>Related Work</h2>
-        <hr>
-            <h3>Ours:</h3>
-            <h3>Others:</h3>
-                <h4>Computational lithography:</h4> -->
+-->
 
 
     </div>
@@ -825,5 +686,5 @@ category: computational microscopy
 
 
 
-Fourier ptychography (FP) is a powerful computational imaging technique that provides both super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and the pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements. The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling. 
+
 
