@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Phase Retrieval With Convex Optimization
+title: Fourier Ptychogrphic Phase Retrieval With Convex Optimization
 description: 
 img: assets/img/smear.jpg
 importance: 2
@@ -425,7 +425,7 @@ category: computational microscopy
 
     <div class="topnav" id="myTopnav">
     </div>
-
+    
     <div class="container">
     
         <div id="authors">
@@ -434,14 +434,14 @@ category: computational microscopy
                     <a href="https://kyungchullee.com/">Kyung Chul Lee<sup>1,2</sup></a>,
                     <a>Hyesuk Chae<sup>1</sup></a>,
                     <a>Shiqi Xu<sup>2</sup></a>,
-                    <a>Kyungwon Lee<sup>1</sup></a>,
+                    <a>Kyungwon Lee<sup>1</sup></a>,<br />
                     <a href="https://bme.duke.edu/faculty/roarke-horstmeyer">Roarke Horstmeyer<sup>2</sup></a>
                     <a href="https://www.image.cau.ac.kr/home">Byung-Woo Hong<sup>3,✉</sup></a>
                     <a href="https://biomedia.yonsei.ac.kr/">Seung Ah Lee<sup>1,✉</sup></a>                
-                    
-                    
-                </div>
-            </center>
+
+
+​                </div>
+​            </center>
             <center>
                 <div class="affiliations">
                     <span><sup>1</sup> Yonsei University </span> 
@@ -449,13 +449,13 @@ category: computational microscopy
                     <span><sup>3</sup> Chung-Ang University
                     </span> <br />
                     <span><sup>✉</sup> Corresponding Authors</span> <br />
-    
 
 
-    
+
+
             <div style="clear: both">
                 <div class="paper-btn-parent">
-                    <a class="paper-btn" href="https://opg.optica.org/oe/browse.cfm">
+                    <a class="paper-btn" href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-14-25343&id=552914">
                         <span class="material-icons"> description </span>
                         Paper
                     </a>
@@ -483,17 +483,18 @@ category: computational microscopy
                 </center>
             </section>
     -->
-          
-    
-            <section id="abstract" />
-            <hr>
-            <h2>Abstract</h2>
-            <div class="flex-row">
-                <p>
-                    Fourier ptychography (FP) is a powerful computational imaging technique that provides both super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and the pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements. The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling. 
-                </p>
-            </div>
-    
+
+
+​    
+​            <section id="abstract" />
+​            <hr>
+​            <h2>Abstract</h2>
+​            <div class="flex-row">
+​                <p>
+​                    Fourier ptychography (FP) is a powerful computational imaging technique that provides both super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and the pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements. The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling. 
+​                </p>
+​            </div>
+​    
             <section id="method" />
             <hr>
             <h2>What We Contribute?</h2>
@@ -503,8 +504,9 @@ category: computational microscopy
     
     - demonstration of the performance of our method with extremely low measurement SNR and Fourier-space subsampling for reduced number of measurements. <br>
     - application of our algorithm using real experimental data, which shows the effectiveness of TV-regularizer for both super-resolution and phase imaging of biological specimens under challenging imaging conditions. <br>
-    
-    
+
+
+​    
 
 
 
