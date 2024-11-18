@@ -9,7 +9,8 @@ profile:
   image_cicular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
-
+social: false  # includes social icons at the bottom of the 
+selected_papers: true
 
 ---
 
