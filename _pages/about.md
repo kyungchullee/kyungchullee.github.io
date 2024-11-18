@@ -9,12 +9,11 @@ profile:
   image_cicular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
-social: false  # includes social icons at the bottom of the 
 
 
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=vkm0OSoAAAAJ&hl=en), [Download CV](https://drive.google.com/file/d/1GPf-75I7dchSuVe8-0HYK-kmRek1Rr6t/view?usp=sharing)
+[<Google Scholar>](https://scholar.google.com/citations?user=vkm0OSoAAAAJ&hl=en), [<Download CV>](https://drive.google.com/file/d/1GPf-75I7dchSuVe8-0HYK-kmRek1Rr6t/view?usp=sharing)
 
 I’m currently a Ph.D. student in Electrical Engineering at Yonsei University advised by [Prof. Seung Ah Lee](https://sites.google.com/oisl.me/oisl/) with my research centered on computational optics and imaging. During my Ph.D. studies, I had the opportunity to be mentored by [Prof. Roarke Horstmeyer](http://horstmeyer.pratt.duke.edu/) in the Biomedical Engineering department at Duke University. I've been honored to receive the Silver Prize at the [28th Samsung Humantech Paper Awards](https://humantech.samsung.com/saitext/index.jsp) and Graduate Research Fellowships from the [NRF](https://www.nrf.re.kr/eng/index) and [MOHW](https://www.mohw.go.kr/eng/index.jsp).
 
