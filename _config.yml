@@ -239,7 +239,8 @@ scholar:
 
   style: apa
   locale: en
-  order: descending
+  sort_by: year
+  order: ascending
   group_by : type
 
   source: /_bibliography/
