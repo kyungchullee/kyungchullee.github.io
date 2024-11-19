@@ -239,9 +239,9 @@ scholar:
 
   style: apa
   locale: en
-  sort_by: year
-  order: descending
-  group_by : type
+  sort_by: year, month
+  order: descending, descending
+  group_by : none
   type_order : [computational cameras, computational mesoscopes, computational microscopes]
 
   source: /_bibliography/
