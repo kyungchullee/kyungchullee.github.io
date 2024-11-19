@@ -442,13 +442,13 @@ category: computational microscopy
 
 ​                </div>
 ​            </center>
-            <center>
-                <div class="affiliations">
-                    <span><sup>1</sup> Yonsei University </span> 
-                    <span><sup>2</sup> Duke University
-                    <span><sup>3</sup> Chung-Ang University
-                    </span> <br />
-                    <span><sup>✉</sup> Corresponding Authors</span> <br />
+​            <center>
+​                <div class="affiliations">
+​                    <span><sup>1</sup> Yonsei University </span> 
+​                    <span><sup>2</sup> Duke University
+​                    <span><sup>3</sup> Chung-Ang University
+​                    </span> <br />
+​                    <span><sup>✉</sup> Corresponding Authors</span> <br />
 
 
 
@@ -495,11 +495,11 @@ category: computational microscopy
 ​                </p>
 ​            </div>
 ​    
-            <section id="method" />
-            <hr>
-            <h2>What We Contribute?</h2>
-            - derivation of the algorithm for TV-regularized FP reconstruction algorithm via ADMM. <br>
-            
+​            <section id="method" />
+​            <hr>
+​            <h2>What We Contribute?</h2>
+​            - derivation of the algorithm for TV-regularized FP reconstruction algorithm via ADMM. <br>
+​            
     				- validation of Tikhonov regularization on the pupil function that ensures a smooth pupil phase profile.<br>
     
     - demonstration of the performance of our method with extremely low measurement SNR and Fourier-space subsampling for reduced number of measurements. <br>
