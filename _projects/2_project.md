@@ -1,81 +1,32 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Phase Mask Design for Lensless Camera
+description: 
+img: assets/img/PM.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: computational cameras
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Advances in image sensor technology and miniaturized optics have enabled the development of ultra-compact and high-quality cameras for everyday use. However, while the pixel resolution of cameras continues to increase, there are physical limits to reducing the size and cost of the entire camera module. As an alternative approach, various lensless imaging methods, which replace the lenses with thin light-modulating masks, have been recently developed. In lensless cameras, the entire module can be miniaturized by reducing the thickness of the lens elements as well as the focusing distance of the lenses. The masks modulate the incident light from the scene, and the image sensors capture the intensity distribution of the modulated light field. With the knowledge of the mask’s transfer function, the encoded intensity information of the scene can be recovered through computational processing of the raw measurement that is otherwise unidentifiable.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+In these lensless cameras, the overall field of view (FOV) and image quality are primarily determined by the light modulating properties of the phase mask originating from the locally varying microscopic structures on the mask. The mask and the resulting PSF inherently define the transfer function of the imaging system; further, the contrast and density of the PSF affect the multiplexing capability and reconstruction quality of the image under a finite bit depth of the image sensor. Inevitably, the ability to design and generate phase masks and the resulting PSFs are crucial for manufacturing and deploying lensless cameras for various applications.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+We developed a method for the high-throughput fabrication of lensless cameras designed with arbitrary point spread functions and showed real-world imaging applications including deep-learning based image reconstruction and optical template matching.
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+![lensless camera](/assets/img/lensless_camera.png){: width="100%" }{: .align-center}
+
+
+
+
+
+
+**Reference**
+
+* Lee, Kyung Chul, et al. "[Design and single-shot fabrication of lensless cameras with arbitrary point spread functions.](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-1-72&id=525050)" *Optica* 10.1 (2023): 72-80.
+

@@ -1,80 +1,529 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Fourier Ptychogrphic Phase Retrieval With Convex Optimization
+description: 
+img: assets/img/smear.jpg
+importance: 2
+category: computational microscopy
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<script type="text/javascript" charset="utf-8"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+<link rel="stylesheet" href="./static/css/bulma.min.css">
+<link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+<link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+<link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="./static/css/index.css">
+<link rel="icon" href="./static/images/shail_logo.jpeg">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script defer src="./static/js/fontawesome.all.min.js"></script>
+<script src="./static/js/bulma-carousel.min.js"></script>
+<script src="./static/js/bulma-slider.min.js"></script>
+<script src="./static/js/index.js"></script>
+
+
+<style type="text/css">
+    body {
+        font-family: "Titillium Web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+        font-size: 17px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (min-width: 980px) {
+        body {
+            width: 980px;
+        }
+    }
+    
+    h1 {
+        font-weight: 300;
+        line-height: 1.15em;
+    }
+    
+    h2 {
+        font-size: 1.75em;
+    }
+    
+    a:link,
+    a:visited {
+        color: #5364cc;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #208799;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    h2,
+    h3 {
+        text-align: left;
+    }
+    
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    h2 {
+        font-weight: 400;
+        margin: 16px 0px 4px 0px;
+    }
+    
+    h3 {
+        font-weight: 600;
+        margin: 16px 0px 4px 0px;
+    }
+    
+    .paper-title {
+        padding: 1px 0px 1px 0px;
+    }
+    
+    section {
+        margin: 32px 0px 32px 0px;
+        text-align: justify;
+        clear: both;
+    }
+    
+    .col-5 {
+        width: 20%;
+        float: left;
+    }
+    
+    .col-4 {
+        width: 25%;
+        float: left;
+    }
+    
+    .col-3 {
+        width: 33%;
+        float: left;
+    }
+    
+    .col-2 {
+        width: 50%;
+        float: left;
+    }
+    
+    .col-1 {
+        width: 100%;
+        float: left;
+    }
+    
+    .author-row,
+    .affil-row {
+        font-size: 26px;
+    }
+    
+    .author-row-new {
+        text-align: center;
+    }
+    
+    .author-row-new a {
+        display: inline-block;
+        font-size: 20px;
+        padding: 4px;
+    }
+    
+    .author-row-new sup {
+        color: #313436;
+        font-size: 12px;
+    }
+    
+    .affiliations-new {
+        font-size: 18px;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .row {
+        margin: 16px 0px 16px 0px;
+    }
+    
+    .authors {
+        font-size: 26px;
+    }
+    
+    .affiliatons {
+        font-size: 18px;
+    }
+    
+    .affil-row {
+        margin-top: 18px;
+    }
+    
+    .teaser {
+        max-width: 100%;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .screenshot {
+        width: 256px;
+        border: 1px solid #ddd;
+    }
+    
+    .screenshot-el {
+        margin-bottom: 16px;
+    }
+    
+    hr {
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ddd;
+        margin: 0;
+    }
+    
+    .material-icons {
+        vertical-align: -6px;
+    }
+    
+    p {
+        line-height: 1.25em;
+    }
+    
+    .caption {
+        font-size: 16px;
+        color: #062817;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+    
+    video {
+        display: block;
+        margin: auto;
+    }
+    
+    figure {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #bibtex pre {
+        font-size: 14px;
+        background-color: #eee;
+        padding: 16px;
+    }
+    
+    .blue {
+        color: #2c82c9;
+        font-weight: bold;
+    }
+    
+    .orange {
+        color: #d35400;
+        font-weight: bold;
+    }
+    
+    .flex-row {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .paper-btn-coming-soon {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .coming-soon {
+        position: absolute;
+        top: -15px;
+        right: -15px;
+    }
+    
+    .paper-btn {
+        position: relative;
+        text-align: center;
+    
+        display: inline-block;
+        margin: 8px;
+        padding: 8px 8px;
+    
+        border-width: 0;
+        outline: none;
+        border-radius: 4px;
+    
+        background-color: #665f5c;
+        color: white !important;
+        font-size: 16px;
+        /* width: 100px; */
+        font-weight: 600;
+    }
+    
+    .paper-btn-parent {
+        display: flex;
+        justify-content: center;
+        margin: 16px 0px;
+    }
+    
+    .paper-btn:hover {
+        opacity: 0.85;
+    }
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .venue {
+        font-size: 23px;
+    }
+    
+    .topnav {
+        background-color: #EEEEEE;
+        overflow: hidden;
+    }
+    
+    .topnav div {
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+    
+    .topnav a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        vertical-align: middle;
+        padding: 16px 16px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    .topnav img {
+        padding: 2px 0px;
+        width: 100%;
+        margin: 0.2em 0px 0.3em 0px;
+        vertical-align: middle;
+    }
+    
+    pre {
+        font-size: 0.9em;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 3px;
+        background-color: rgb(235, 235, 235);
+        overflow-x: auto;
+    }
+    
+    .download-thumb {
+        display: flex;
+    }
+    
+    @media only screen and (max-width: 620px) {
+        .download-thumb {
+            display: none;
+        }
+    }
+    
+    .paper-stuff {
+        width: 50%;
+        font-size: 20px;
+    }
+    
+    @media only screen and (max-width: 620px) {
+        .paper-stuff {
+            width: 100%;
+        }
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .column {
+        text-align: center;
+        float: left;
+        width: 16.666%;
+        padding: 5px;
+    }
+    
+    .column3 {
+        text-align: center;
+        float: left;
+        width: 33.333%;
+        padding: 5px;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    .border-bottom {
+        border-bottom: 1px solid black;
+    }
+
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .column3 {
+            width: 100%;
+        }
+    }
+    
+    .expandable-section .content {
+        display: none;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-top: 5px;
+    }
+    
+    .toggle-button {
+        cursor: pointer;
+    }
+</style>
+
+<script type="text/javascript" src="../js/hidebib.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+    rel='stylesheet' type='text/css'>
+
+
+
+<body>
+
+    <div class="topnav" id="myTopnav">
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+    
+    <div class="container">
+    
+        <div id="authors">
+            <center>
+                <div class="author-row-new">
+                    <a href="https://kyungchullee.com/">Kyung Chul Lee<sup>1,2</sup></a>,
+                    <a>Hyesuk Chae<sup>1</sup></a>,
+                    <a>Shiqi Xu<sup>2</sup></a>,
+                    <a>Kyungwon Lee<sup>1</sup></a>,<br />
+                    <a href="https://bme.duke.edu/faculty/roarke-horstmeyer">Roarke Horstmeyer<sup>2</sup></a>
+                    <a href="https://www.image.cau.ac.kr/home">Byung-Woo Hong<sup>3,✉</sup></a>
+                    <a href="https://biomedia.yonsei.ac.kr/">Seung Ah Lee<sup>1,✉</sup></a>                
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+​                </div>
+​            </center>
+            <center>
+                <div class="affiliations">
+                    <span><sup>1</sup> Yonsei University </span> 
+                    <span><sup>2</sup> Duke University
+                    <span><sup>3</sup> Chung-Ang University
+                    </span> <br />
+                    <span><sup>✉</sup> Corresponding Authors</span> <br />
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+            <div style="clear: both">
+                <div class="paper-btn-parent">
+                    <a class="paper-btn" href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-14-25343&id=552914">
+                        <span class="material-icons"> description </span>
+                        Paper
+                    </a>
+                    <div class="paper-btn-coming-soon">
+                        <a class="paper-btn" href="https://github.com/OISL-Yonsei/FP_ADMM">
+                            <!-- <span class="material-icons"> code </span> -->
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+    <!--
+    <section id="teaser-image">
+                <center>
+                    <figure>
+                        <a>
+                            <img width="100%" src="asserts/Teaser.png">
+                        </a>
+                    </figure>
+                </center>
+            </section>
+    -->
+
+
+​    
+​            <section id="abstract" />
+​            <hr>
+​            <h2>Abstract</h2>
+​            <div class="flex-row">
+​                <p>
+​                    Fourier ptychography (FP) is a powerful computational imaging technique that provides both super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and the pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements. The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling. 
+​                </p>
+​            </div>
+​    
+            <section id="method" />
+            <hr>
+            <h2>What We Contribute?</h2>
+            - derivation of the algorithm for TV-regularized FP reconstruction algorithm via ADMM. <br>
+            
+    				- validation of Tikhonov regularization on the pupil function that ensures a smooth pupil phase profile.<br>
+    
+    - demonstration of the performance of our method with extremely low measurement SNR and Fourier-space subsampling for reduced number of measurements. <br>
+    - application of our algorithm using real experimental data, which shows the effectiveness of TV-regularizer for both super-resolution and phase imaging of biological specimens under challenging imaging conditions. <br>
+
+
+​    
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.toggle-button').on('click', function () {
+                $(this).next('.content').toggle();
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
