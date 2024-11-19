@@ -192,6 +192,9 @@ plugins:
   - jemoji
   - jekyll-scholar
 
+gems:
+  - jekyll-scholar
+
 # Sitemap settings
 defaults:
   - scope:
