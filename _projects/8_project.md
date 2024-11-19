@@ -1,14 +1,81 @@
 ---
 layout: page
-title: Snapshot Hyperspectral Imaging
-description: 
-img: assets/img/HSI.png
+title: project 8
+description: an other project with a background image and giscus comments
+img: assets/img/9.jpg
 importance: 2
-category: computational cameras
+category: work
+giscus_comments: true
 ---
 
-We present a lensless snapshot hyperspectral camera that is capable of hyperspectral imaging over a broad spectrum using a compact and low-cost hardware configuration. We leverage the multiplexing capability of a lensless camera, a novel type of computational imaging device that replaces the lens with a thin mask. Our device utilizes a linear variable filter and a phase mask to encode spectral information onto a monochromatic image sensor, enabling recovery of hyperspectral image stacks from a single measurement by utilizing spectral information encoded in different parts of the 2D point spread function. We perform spectral calibration using a reference color chart and verify the prototype device’s spectral and spatial resolution, as well as its imaging field of view. We report on the design and construction of the device, the image reconstruction algorithm, and spectral calibration methods and present hyperspectral images ranging from 410 to 800 nm obtained with our prototype device.  
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-**Reference**
-* Kim, Taeyoung, et al. ["Aperture-encoded snapshot hyperspectral imaging with a lensless camera." ](https://pubs.aip.org/aip/app/article/8/6/066109/2900496)  *APL Photonics* 8.6 (2023).
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+{% raw %}
+
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+```
+
+{% endraw %}
