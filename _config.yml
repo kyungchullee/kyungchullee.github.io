@@ -234,13 +234,13 @@ jekyll-minifier:
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lee]
+  first_name: [Kyung Chul]
 
   style: apa
   locale: en
   sort_by: year
-  order: ascending
+  order: descending
   group_by : type
   type_order : [computational cameras, computational mesoscopes, computational microscopes]
 
