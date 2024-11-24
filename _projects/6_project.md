@@ -77,7 +77,7 @@ category: computational microscopy
                 <a>Kyungwon Lee<sup>1</sup></a>,<br />
                 <a href="https://bme.duke.edu/faculty/roarke-horstmeyer">Roarke Horstmeyer<sup>2</sup></a>,
                 <a href="https://www.image.cau.ac.kr/home">Byung-Woo Hong<sup>3,✉</sup></a>,
-                <a href="https://biomedia.yonsei.ac.kr/">Seung Ah Lee<sup>1,✉</sup></a>
+                <a href="https://biomedia.yonsei.ac.kr/">Seung Ah Lee<sup>1,✉</sup></a><br />
             </div>
             <div>
                 <span><sup>1</sup> Yonsei University</span>
