@@ -74,7 +74,7 @@ category: computational microscopy
                 <a href="https://kyungchullee.com/">Kyung Chul Lee<sup>1,2</sup></a>,
                 <a>Hyesuk Chae<sup>1</sup></a>,
                 <a>Shiqi Xu<sup>2</sup></a>,
-                <a>Kyungwon Lee<sup>1</sup></a>,
+                <a>Kyungwon Lee<sup>1</sup></a>,<br />
                 <a href="https://bme.duke.edu/faculty/roarke-horstmeyer">Roarke Horstmeyer<sup>2</sup></a>,
                 <a href="https://www.image.cau.ac.kr/home">Byung-Woo Hong<sup>3,✉</sup></a>,
                 <a href="https://biomedia.yonsei.ac.kr/">Seung Ah Lee<sup>1,✉</sup></a>
