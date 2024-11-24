@@ -500,8 +500,8 @@ category: computational microscopy
 ​            <h2>What We Contribute?</h2>
 ​            - derivation of the algorithm for TV-regularized FP reconstruction algorithm via ADMM. <br>
 ​            
-    				- validation of Tikhonov regularization on the pupil function that ensures a smooth pupil phase profile.<br>
-    
+​    				- validation of Tikhonov regularization on the pupil function that ensures a smooth pupil phase profile.<br>
+​    
     - demonstration of the performance of our method with extremely low measurement SNR and Fourier-space subsampling for reduced number of measurements. <br>
     - application of our algorithm using real experimental data, which shows the effectiveness of TV-regularizer for both super-resolution and phase imaging of biological specimens under challenging imaging conditions. <br>
 
