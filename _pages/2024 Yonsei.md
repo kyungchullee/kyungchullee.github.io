@@ -1,12 +1,12 @@
 ---
 layout: photo_set
-title: 2022 Yonsei
+title: 2024 Yonsei
 permalink: /2024 Yonsei/
 description: 
 
 
 photos:
-    set: 2022 Yonsei
+    set: 2024 Yonsei
     size: 4
 
 
