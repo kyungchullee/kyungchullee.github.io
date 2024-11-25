@@ -140,11 +140,11 @@ category: computational microscopy
     the speed and the cost of the FP data acquisition process without sacrificing image quality. We believe that our FP reconstruction algorithm will be of great interest to the optics and imaging community, particularly as it further impacts various extensions of FP as well as real-space ptychography, which share a common algorithmic
     foundation.
             </p>
-            <ul>
+        <ul>
         <li>[1] Kyung Chul Lee, Hyesuk Chae, Shiqi Xu, Kyungwon Lee, Roarke Horstmeyer, Seung Ah Lee, and Byung-Woo Hong. Anisotropic regularization for sparsely sampled and noise-robust fourier ptychography. Optics Express, 32(14):25343–25361, 2024. [Link]
     </li>
         <li>[2] Hyeongyu Kim, Kyungwon Kim, Kyung Chul Lee, Seung Ah Lee, and Dosik Hwang. Hybrid physics informed machine learning for fourier ptychography. Under Review, 2024</li>
-        </ul>    
+        </ul>        
         </section>
     
         
@@ -153,49 +153,32 @@ category: computational microscopy
         <section id="section4">
             <hr>
             <h2>Smartphone Based Computational Microscope</h2>
-            <h3>Problem Statement</h3>
             <p>
-            The reduction of the size and cost of microscopes creates new possibilities for disease screening and health care in resource-limited settings. Smartphones and mobile devices can be useful for the construction of compact and portable imaging devices, by replacing expensive and bulky optical instruments with state-of-the-art cameras, high-performance processors, and network connectivity in a compact footprint.
+            The reduction of the size and cost of microscopes creates new possibilities for disease screening and health care in resource-limited settings. Smartphones and mobile devices can be useful for the construction of compact and portable imaging devices, by replacing expensive and bulky optical instruments with state-of-the-art cameras, high-performance processors, and network connectivity in a compact footprint. We propose a smartphone-mountable computational microscope that achieves wide-field and high-resolution imaging, based on the Fourier ptychographic (FP) microscopy technique. Our device uses the smartphone’s built-in camera for microscopy imaging, the display screen for programmable illumination, and the computational power of the smartphone processors for FP image reconstruction. With a compact and lightweight optics module and a custom-built application, we can transform a regular smartphone into a high-performance microscope device with a space-bandwidth product exceeding that of regular benchtop microscopes. Our device achieves a half-pitch resolution of 870 nm over a wide field-of-view of 2.1 × 1.6 $mm^2$ with amplitude, phase, and color imaging capabilities. As global health issues continue to persist and new epidemic challenges arise, we believe that our smartphone microscopy technology can effectively address the clinical needs in point-of-care environments.
             </p>
-            <h3>Methods</h3>
-            <p>
-            We propose a smartphone-mountable computational microscope that achieves wide-field and high-resolution imaging, based on the Fourier ptychographic (FP) microscopy technique. Our device uses the smartphone’s built-in camera for microscopy imaging, the display screen for programmable illumination, and the computational power of the smartphone processors for FP image reconstruction.
-            </p>
-            <h3>Results</h3>
-            <p>
-            With a compact and lightweight optics module and a custom-built application, we can transform a regular smartphone into a high-performance microscope device with a space-bandwidth product exceeding that of regular benchtop microscopes. Our device achieves a half-pitch resolution of 870 nm over a wide field-of-view of 2.1 × 1.6 $mm^2$ with amplitude, phase, and color imaging capabilities.
-            </p>
-            <h3>Contributions</h3>
-            <p>
-            As global health issues continue to persist and new epidemic challenges arise, we believe that our smartphone microscopy technology can effectively address the clinical needs in point-of-care environments.
-            </p>
+        <ul>
+        <li>[1] Kyung Chul Lee, Kyungwon Lee, Jaewoo Jung, Se Hee Lee, Donghyun Kim, and Seung Ah Lee. A smartphone-based fourier ptychographic microscope using the display screen for illumination. ACS Photonics, 8(5):1307–1315, 2021. [Link]</li>
+        <li>[2] Shiqi Xu, Xi Yang, Paul Ritter, Xiang Dai, Kyung Chul Lee, Lucas Kreiss, Kevin C Zhou, Kanghyun Kim, Amey Chaware, Jadee Neff, et al. Tensorial tomographic fourier ptychography with applications to muscle tissue imaging. Advanced Photonics, 6(2):026004–026004, 2024. [Link]</li>
+        </ul>    
         </section>
-        <ol>
-        <li></li>
-        <li></li>
-        </ol>
+        
         
         
         <!-- Contributions Section -->
         <section id="section5">
             <hr>
             <h2>Virtual Staining for Digital Pathology</h2>
-            <h3>Problem Statement</h3>
             <p>
-            Virtual staining techniques now enable the transformation of label-free images into clinically standard stained images; however, the extensive costs and time requirements of labelled dataset generation impede its widespread use in clinical settings.
+            Virtual staining techniques now enable the transformation of label-free images into clinically standard stained images; however, the extensive costs and time requirements of labelled dataset generation impede its widespread use in clinical settings. We aim to implement semi-supervised learning for virtual staining to enable high-fidelity results while reducing the need for labor-intensive dataset generation. To achieve this, we designed a neural network architecture that digitally stains label-free images of unstained tissue by minimizing style feature differences between the outputs of stained and unstained raw images. We have compared the output from the virtual staining network with various training strategy including supervised training with end to end and cascaded architecture, unsupervised training, and our semi-supervised training. Additionally, for consistency in comparison, we prepared a unstained slide and a well-stained slide from the same tissue block. While minor differences in cellular features may exist between the slides, our methods exhibits the best performance among the methods as well as their overall tissue structures remain comparable. Our approach is particularly valuable for computational microscopy techniques that enable various label-free imaging applications, where generating paired datasets is challenging, such as in 3D pathology and immunohistochemistry staining.
             </p>
-            <h3>Methods</h3>
-            <p>
-            We aim to implement semi-supervised learning for virtual staining to enable high-fidelity results while reducing the need for labor-intensive dataset generation. To achieve this, we designed a neural network architecture that digitally stains label-free images of unstained tissue by minimizing style feature differences between the outputs of stained and unstained raw images.
-            </p>
-            <h3>Results</h3>
-            <p>
-            We have compared the output from the virtual staining network with various training strategy including supervised training with end to end and cascaded architecture, unsupervised training, and our semi-supervised training. Additionally, for consistency in comparison, we prepared a unstained slide and a well-stained slide from the same tissue block. While minor differences in cellular features may exist between the slides, our methods exhibits the best performance among the methods as well as their overall tissue structures remain comparable.
-            </p>
-            <h3>Contributions</h3>
-            <p>
-            Our approach is particularly valuable for computational microscopy techniques that enable various label-free imaging applications, where generating paired datasets is challenging, such as in 3D pathology and immunohistochemistry staining.
-            </p>
+        <ul>
+        <li>[1] Kyung Chul Lee, Hyesuk Che, Roarke Horstmeyer, and Seung Ah Lee. Semi-supervised virtual staining for high-throughput and label-free histopathology. Under Review, 2024
+        <li>[2] Lucas Kreiss, Shaowei Jiang, Xiang Li, Shiqi Xu, Kevin C Zhou, Kyung Chul Lee, Alexander Mu ̈hlberg, Kanghyun Kim, Amey Chaware, Michael Ando, et al. Digital staining in optical microscopy using deep learning-a review. PhotoniX, 4(1):34, 2023. [Link]
+    </li>
+    <li>
+    [3] Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring h&e stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [Link]
+    </li>
+        </ul>    
         </section>
     </div>
     
