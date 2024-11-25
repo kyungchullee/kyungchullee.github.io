@@ -23,6 +23,13 @@ category: computational microscopy
         margin: auto;
         max-width: 980px;
     }
+    img {
+      width: 100%; /* makes the image responsive, adjusting to the width of its container */
+      height: auto; /* maintains the aspect ratio of the image */
+  }
+
+
+
 
     h1, h2, h3 {
         font-weight: 300;
@@ -34,13 +41,18 @@ category: computational microscopy
     }
     
     h2 {
-        font-size: 1.75em;
+        font-size: 1.5em;
         margin: 16px 0 4px;
     }
     
     p, ul {
         line-height: 1.5em;
         text-align: justify;
+    }
+    
+    h4 {
+        font-size: 1em;
+        margin: 16px 0 4px;
     }
     
     .container {
@@ -132,6 +144,7 @@ category: computational microscopy
     		<li>Kyung Chul Lee, Donggeun Bae, and Seung Ah Lee. Privacy-preserving imaging via ultra-thin lensless cameras with arbitrary shift-variant point spread function. Manuscript Prep.
     		</li>
         </ul>    
+        <img src="/assets/img/research_preview/lensless.jpg" alt="Sized Image">
         </section>
         
         
@@ -149,7 +162,8 @@ category: computational microscopy
         <li>[1] Kyung Chul Lee, Hyesuk Chae, Shiqi Xu, Kyungwon Lee, Roarke Horstmeyer, Seung Ah Lee, and Byung-Woo Hong. Anisotropic regularization for sparsely sampled and noise-robust fourier ptychography. Optics Express, 32(14):25343–25361, 2024. [<a href="https://doi.org/10.1364/OE.529023">Link</a>]
     </li>
         <li>[2] Hyeongyu Kim, Kyungwon Kim, Kyung Chul Lee, Seung Ah Lee, and Dosik Hwang. Hybrid physics informed machine learning for fourier ptychography. Under Review, 2024</li>
-        </ul>        
+        </ul>       
+        <img src="/assets/img/research_preview/regularization.jpg" alt="Sized Image">
         </section>
     
         
@@ -166,6 +180,7 @@ category: computational microscopy
         <li>Kyung Chul Lee, Kyungwon Lee, Jaewoo Jung, Se Hee Lee, Donghyun Kim, and Seung Ah Lee. A smartphone-based fourier ptychographic microscope using the display screen for illumination. ACS Photonics, 8(5):1307–1315, 2021. [<a href="https://doi.org/10.1021/acsphotonics.1c00350">Link</a>]</li>
         <li>Shiqi Xu, Xi Yang, Paul Ritter, Xiang Dai, Kyung Chul Lee, Lucas Kreiss, Kevin C Zhou, Kanghyun Kim, Amey Chaware, Jadee Neff, et al. Tensorial tomographic fourier ptychography with applications to muscle tissue imaging. Advanced Photonics, 6(2):026004–026004, 2024. [<a href="https://doi.org/10.1117/1.AP.6.2.026004">Link</a>]</li>
         </ul>    
+        <img src="/assets/img/research_preview/smartphone.jpg" alt="Sized Image">
         </section>
         
         
@@ -184,6 +199,7 @@ category: computational microscopy
     <li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring h&e stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]
     </li>
         </ul>    
+        <img src="/assets/img/research_preview/vs.jpg" alt="Sized Image">
         </section>
     </div>
     
