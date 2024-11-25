@@ -88,6 +88,15 @@ horizontal: false
     .paper-btn:hover {
         opacity: 0.85;
     }
+    .video-container {
+        text-align: center;  /* Centering the content inside */
+    }
+    
+    iframe {
+        display: block;  /* Change from inline to block */
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 </style>
 
@@ -106,7 +115,7 @@ horizontal: false
           <li><a href="#section4">Smartphone Based Computational Microscope</a></li>
           <li><a href="#section5">Virtual Staining for Digital Pathology</a></li>
         </ul>
-</section>   
+
 
 <section id="section1">
     <hr>
