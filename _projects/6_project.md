@@ -21,7 +21,7 @@ category: computational microscopy
         font-weight: 300;
         font-size: 17px;
         margin: auto;
-        max-width: 980px;
+        max-width: 1100px;
     }
     img {
       width: 100%; /* makes the image responsive, adjusting to the width of its container */
@@ -32,7 +32,7 @@ category: computational microscopy
 
 
     h1, h2, h3 {
-        font-weight: 300;
+        font-weight: 600;
     }
     
     h1 {
@@ -51,6 +51,7 @@ category: computational microscopy
     }
     
     h4 {
+    		font-weight: 600;
         font-size: 1em;
         margin: 16px 0 4px;
     }
@@ -159,9 +160,9 @@ category: computational microscopy
             </p>
         <h4>Relevant publications</h4>
         <ul>
-        <li>[1] Kyung Chul Lee, Hyesuk Chae, Shiqi Xu, Kyungwon Lee, Roarke Horstmeyer, Seung Ah Lee, and Byung-Woo Hong. Anisotropic regularization for sparsely sampled and noise-robust fourier ptychography. Optics Express, 32(14):25343–25361, 2024. [<a href="https://doi.org/10.1364/OE.529023">Link</a>]
+        <li>Kyung Chul Lee, Hyesuk Chae, Shiqi Xu, Kyungwon Lee, Roarke Horstmeyer, Seung Ah Lee, and Byung-Woo Hong. Anisotropic regularization for sparsely sampled and noise-robust fourier ptychography. Optics Express, 32(14):25343–25361, 2024. [<a href="https://doi.org/10.1364/OE.529023">Link</a>]
     </li>
-        <li>[2] Hyeongyu Kim, Kyungwon Kim, Kyung Chul Lee, Seung Ah Lee, and Dosik Hwang. Hybrid physics informed machine learning for fourier ptychography. Under Review, 2024</li>
+        <li>Hyeongyu Kim, Kyungwon Kim, Kyung Chul Lee, Seung Ah Lee, and Dosik Hwang. Hybrid physics informed machine learning for fourier ptychography. Under Review, 2024</li>
         </ul>       
         <img src="/assets/img/research_preview/regularization.jpg" alt="Sized Image">
         </section>
