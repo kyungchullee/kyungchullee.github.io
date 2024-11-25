@@ -67,6 +67,7 @@ category: computational microscopy
 </style>
 
 <body>
+
     <div class="container">
         <!-- Authors Section -->
         <div id="authors" style="text-align: center;">
@@ -87,51 +88,55 @@ category: computational microscopy
             </div>
         </div>
 
-        <!-- Buttons Section -->
-        <div style="text-align: center; margin-top: 20px;">
-            <a class="paper-btn" href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-14-25343&id=552914">
-                <i class="fas fa-file-alt"></i> Paper
-            </a>
-            <a class="paper-btn" href="https://github.com/OISL-Yonsei/FP_ADMM">
-                <i class="fab fa-github"></i> Code
-            </a>
-        </div>
     
         <!-- Abstract Section -->
         <section id="abstract">
             <hr>
-            <h2>Abstract</h2>
             <p>
-                Fourier ptychography (FP) is a powerful computational imaging technique that provides both super-resolution 
-                and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. 
-                However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy 
-                and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput 
-                imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation 
-                (TV) and Tikhonov regularizations for the object and the pupil functions, respectively. Our approach, based on 
-                the alternating direction method of multipliers (ADMM), successfully recovers high-quality images with sparsely 
-                sampled and/or noisy measurements.
+                My research centers on developing optical imaging systems by jointly designing optical hardware and image processing algorithms for applications ranging from the microscale (microscopes) to the macroscale (cameras). I am interested in all aspects of computational imaging, including (1) designing advanced computational algorithms, (2) optimizing programmable optical hardware, and (3) applying these innovations to real-world scenarios to maximize imaging throughput. More specifically, my work during Ph.D. has primarily focused on computational phase retrieval for designing and imaging phase profiles. I have invented a novel design and single-shot fabrication method of phase masks for mask-based lensless imaging and built various types of multiplexed imaging systems based on lensless imaging. Additionally, I have contributed to the development of high-speed phase imaging techniques based on Fourier ptychography, significantly reducing the large dataset requirements of conventional reconstruction methods. Detailed information about my experiences is summarized in the following sections. Some projects include:
+                <ul>
+                  <li><a href="#section1">Phase Mask Design for Lensless Cameras</a></li>
+                  <li><a href="#section2">Single-shot Multiplexed Imaging via Customized Lensless Cameras</a></li>
+                  <li><a href="#section3">Regularized Phase Retrieval for High-Speed Fourier Ptychography</a></li>
+                  <li><a href="#section4">Smartphone Based Computational Microscope</a></li>
+                  <li><a href="#section5">Virtual Staining for Digital Pathology</a></li>
+                </ul>
+                
+                
             </p>
         </section>
     
         <!-- Contributions Section -->
-        <section id="contributions">
+        <section id="section1">
             <hr>
-            <h2>What We Contribute?</h2>
-            <ul>
-                <li>Derivation of the algorithm for TV-regularized FP reconstruction using ADMM.</li>
-                <li>Validation of Tikhonov regularization on the pupil function to ensure a smooth pupil phase profile.</li>
-                <li>Demonstration of performance under extremely low measurement SNR and Fourier-space subsampling.</li>
-                <li>Application to real experimental data, showing the effectiveness of TV-regularizer for biological specimens.</li>
-            </ul>
+            <h2>Phase Mask Design for Lensless Cameras</h2>
+            <h3>Problem Statement</h3>
+            <p>
+            Lensless cameras are a novel class of computational imaging devices, in which the lenses are replaced with a thin mask with 2D point spread functions (PSFs) to achieve ultra-compact and low-cost hardware. However, the high costs and limited scalability with conventional fabrication methods are not ideal for mass production of designed lensless cameras.
+            </p>
+            <h3>Methods</h3>
+            <p>
+            We propose a method for high-throughput fabrication of lensless cameras designed with arbitrary PSFs for various imaging tasks. The workflow of our method includes designing the smooth phase mask profiles for a given PSF pattern and then fabricating the mask in a single shot via the gray-scale lithography technique.
+            </p>
+            <h3>Results</h3>
+            <p>
+            We show that our method can be used for a flexible production of custom lensless cameras with various pre-designed PSFs and effectively obtain images of the scene via computational image reconstruction. We demonstrate the potential applications of our custom lensless cameras, including the deployment of the learned reconstruction networks for fast imaging and fingerprint detection via optical template matching.
+            </p>
+            <h3>Contributions</h3>
+            <p>
+            Our work provides for the first time a programmable and high-throughput way to construct lensless cameras with custom phase masks by combining a phase-retrieval-based design algorithm and the single-shot grayscale lithography. The experimental results shown in our work demonstrate a solid potential for manufacturing and deploying compact lensless cameras for diverse real-world imaging applications.
+            </p>
+            
+            
+            
+            
+            
+            
+            
+            
+            
         </section>
     </div>
     
-    <!-- jQuery Functionality -->
-    <script>
-        $(document).ready(function () {
-            $('.toggle-button').on('click', function () {
-                $(this).next('.content').toggle();
-            });
-        });
-    </script>
+    
 </body>
