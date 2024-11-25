@@ -98,7 +98,10 @@ category: computational microscopy
         <li>Kyung Chul Lee, Junghyun Bae, Nakkyu Baek, Jaewoo Jung, Wook Park, and Seung Ah Lee. Design and single-shot fabrication of lensless cameras with arbitrary point spread functions. Optica, 10(1):72–80, 2023. [<a href="https://doi.org/10.1364/OPTICA.466072">Link</a>] </li>
         <li>Yujin Lee, Hyesuk Chae, Kyung Chul Lee, Nakkyu Baek, Taeyoung Kim, Jaewoo Jung, and Seung Ah Lee. Fabrication of integrated lensless cameras via uv-imprint lithography. IEEE Photonics Journal, 14(2):1–8, 2022. [<a href="https://ieeexplore.ieee.org/document/9730042">Link</a>]</li>
         </ul>
+        <img src="/assets/img/research_preview/phasemask.jpg" alt="Sized Image">
+    
         </section>
+        
         
         
         <!-- Contributions Section -->
