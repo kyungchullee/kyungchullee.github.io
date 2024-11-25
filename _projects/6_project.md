@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fourier Ptychographic Phase Retrieval With Convex Optimization
+title: Research
 description: 
 img: assets/img/smear.jpg
 importance: 2
@@ -68,26 +68,6 @@ category: computational microscopy
 
 <body>
 
-    <div class="container">
-        <!-- Authors Section -->
-        <div id="authors" style="text-align: center;">
-            <div>
-                <a href="https://kyungchullee.com/">Kyung Chul Lee<sup>1,2</sup></a>,
-                <a>Hyesuk Chae<sup>1</sup></a>,
-                <a>Shiqi Xu<sup>2</sup></a>,
-                <a>Kyungwon Lee<sup>1</sup></a>,<br />
-                <a href="https://bme.duke.edu/faculty/roarke-horstmeyer">Roarke Horstmeyer<sup>2</sup></a>,
-                <a href="https://www.image.cau.ac.kr/home">Byung-Woo Hong<sup>3,✉</sup></a>,
-                <a href="https://biomedia.yonsei.ac.kr/">Seung Ah Lee<sup>1,✉</sup></a><br />
-            </div>
-            <div>
-                <span><sup>1</sup> Yonsei University</span>
-                <span><sup>2</sup> Duke University</span>
-                <span><sup>3</sup> Chung-Ang University</span><br />
-                <span><sup>✉</sup> Corresponding Authors</span>
-            </div>
-        </div>
-
     
         <!-- Abstract Section -->
         <section id="abstract">
@@ -110,31 +90,110 @@ category: computational microscopy
         <section id="section1">
             <hr>
             <h2>Phase Mask Design for Lensless Cameras</h2>
-            <h3>Problem Statement</h3>
+            <h4>Problem Statement</h4>
             <p>
             Lensless cameras are a novel class of computational imaging devices, in which the lenses are replaced with a thin mask with 2D point spread functions (PSFs) to achieve ultra-compact and low-cost hardware. However, the high costs and limited scalability with conventional fabrication methods are not ideal for mass production of designed lensless cameras.
             </p>
-            <h3>Methods</h3>
+            <h4>Methods</h4>
             <p>
             We propose a method for high-throughput fabrication of lensless cameras designed with arbitrary PSFs for various imaging tasks. The workflow of our method includes designing the smooth phase mask profiles for a given PSF pattern and then fabricating the mask in a single shot via the gray-scale lithography technique.
             </p>
-            <h3>Results</h3>
+            <h4>Results</h4>
             <p>
             We show that our method can be used for a flexible production of custom lensless cameras with various pre-designed PSFs and effectively obtain images of the scene via computational image reconstruction. We demonstrate the potential applications of our custom lensless cameras, including the deployment of the learned reconstruction networks for fast imaging and fingerprint detection via optical template matching.
             </p>
-            <h3>Contributions</h3>
+            <h4>Contributions</h4>
             <p>
             Our work provides for the first time a programmable and high-throughput way to construct lensless cameras with custom phase masks by combining a phase-retrieval-based design algorithm and the single-shot grayscale lithography. The experimental results shown in our work demonstrate a solid potential for manufacturing and deploying compact lensless cameras for diverse real-world imaging applications.
             </p>
-            
-            
-            
-            
-            
-            
-            
-            
-            
+        </section>
+        
+        
+        <!-- Contributions Section -->
+        <section id="section2">
+            <hr>
+            <h2>Single-shot Multiplexed Imaging via Customized Lensless Cameras</h2>
+            <h3>Problem Statement</h3>
+            <p>
+            Lensless imaging with 2D PSFs decouples one-to-one mapping between each position in the scene and the sensor pixels, enabling single-shot multiplexed measurements without using superpixels. We have built various type of customized lensless cameras to obtain multiplexed information from the single shot lensless measurments.
+            </p>
+            <h3>High Speed Eyetracker with Lensless Imaging</h3>
+            <p>
+            We have developed a goggle-type eye tracker featuring a low-cost, high-speed lensless camera designed to monitor eye movements in individuals with neurodegenerative diseases. By combining a rolling shutter image sensor with lensless computational imaging, the system reconstructs a sequence of time-resolved images from a single snapshot, significantly enhancing the camera's frame rate from 15 Hz to 480 Hz.
+            </p>
+            <h3>Snapshot Hyperspectral Imaging with Lensless Camera</h3>
+            <p>
+            Our device combines a linear variable filter and a phase mask to encode spectral information onto a monochromatic image sensor, enabling the recovery of hyperspectral image stacks from a single measurement. This is achieved by leveraging the spectral information encoded in different regions of the 2D point spread function. Using our prototype, we demonstrate the acquisition of hyperspectral images spanning wavelengths from 410 to 800 nm through single-shot lensless measurements.
+            </p>
+            <h3>Privacy Preserving Imaging via Shift-Variant Lensless Camera</h3>
+            <p>
+            Cameras serve as essential tools for collecting information from the surrounding environment and providing feedback to users, yet they pose a risk to privacy. Here, we propose a method to encrypt the scene at the hardware level by designing the forward model of a lensless camera with engineered shift-variant transfer function and to decode the encrypted scene with a physics-based neural network.
+            </p>
+        </section>
+        <!-- Contributions Section -->
+        <section id="section3">
+            <hr>
+            <h2>Regularized Phase Retrieval for High-Speed Fourier Ptychography</h2>
+            <h3>Problem Statement</h3>
+            <p>
+            Fourier ptychography (FP) is a powerful computational imaging technique that provides super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space.
+            </p>
+            <h3>Methods</h3>
+            <p>
+            To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using the alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements.
+            </p>
+            <h3>Results</h3>
+            <p>
+            The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling.
+            </p>
+            <h3>Contributions</h3>
+            <p>
+            Our proposed algorithm achieves high-quality FP reconstruction along with the improvement of
+    the speed and the cost of the FP data acquisition process without sacrificing image quality. We believe that our FP reconstruction algorithm will be of great interest to the optics and imaging community, particularly as it further impacts various extensions of FP as well as real-space ptychography, which share a common algorithmic
+    foundation.
+            </p>
+        </section>
+        <!-- Contributions Section -->
+        <section id="section4">
+            <hr>
+            <h2>Smartphone Based Computational Microscope</h2>
+            <h3>Problem Statement</h3>
+            <p>
+            The reduction of the size and cost of microscopes creates new possibilities for disease screening and health care in resource-limited settings. Smartphones and mobile devices can be useful for the construction of compact and portable imaging devices, by replacing expensive and bulky optical instruments with state-of-the-art cameras, high-performance processors, and network connectivity in a compact footprint.
+            </p>
+            <h3>Methods</h3>
+            <p>
+            We propose a smartphone-mountable computational microscope that achieves wide-field and high-resolution imaging, based on the Fourier ptychographic (FP) microscopy technique. Our device uses the smartphone’s built-in camera for microscopy imaging, the display screen for programmable illumination, and the computational power of the smartphone processors for FP image reconstruction.
+            </p>
+            <h3>Results</h3>
+            <p>
+            With a compact and lightweight optics module and a custom-built application, we can transform a regular smartphone into a high-performance microscope device with a space-bandwidth product exceeding that of regular benchtop microscopes. Our device achieves a half-pitch resolution of 870 nm over a wide field-of-view of 2.1 × 1.6 $mm^2$ with amplitude, phase, and color imaging capabilities.
+            </p>
+            <h3>Contributions</h3>
+            <p>
+            As global health issues continue to persist and new epidemic challenges arise, we believe that our smartphone microscopy technology can effectively address the clinical needs in point-of-care environments.
+            </p>
+        </section>
+        <!-- Contributions Section -->
+        <section id="section5">
+            <hr>
+            <h2>Virtual Staining for Digital Pathology</h2>
+            <h3>Problem Statement</h3>
+            <p>
+            Virtual staining techniques now enable the transformation of label-free images into clinically standard stained images; however, the extensive costs and time requirements of labelled dataset generation impede its widespread use in clinical settings.
+            </p>
+            <h3>Methods</h3>
+            <p>
+            We aim to implement semi-supervised learning for virtual staining to enable high-fidelity results while reducing the need for labor-intensive dataset generation. To achieve this, we designed a neural network architecture that digitally stains label-free images of unstained tissue by minimizing style feature differences between the outputs of stained and unstained raw images.
+            </p>
+            <h3>Results</h3>
+            <p>
+            We have compared the output from the virtual staining network with various training strategy including supervised training with end to end and cascaded architecture, unsupervised training, and our semi-supervised training. Additionally, for consistency in comparison, we prepared a unstained slide and a well-stained slide from the same tissue block. While minor differences in cellular features may exist between the slides, our methods exhibits the best performance among the methods as well as their overall tissue structures remain comparable.
+            </p>
+            <h3>Contributions</h3>
+            <p>
+            Our approach is particularly valuable for computational microscopy techniques that enable various label-free imaging applications, where generating paired datasets is challenging, such as in 3D pathology and immunohistochemistry staining.
+            </p>
         </section>
     </div>
     
