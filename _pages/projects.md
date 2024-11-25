@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: research
 permalink: /research/
 description: 
 nav: true
@@ -106,6 +106,8 @@ horizontal: false
               <li><a href="#section4">Smartphone Based Computational Microscope</a></li>
               <li><a href="#section5">Virtual Staining for Digital Pathology</a></li>
             </ul>
+    
+    </section>   
 
 ​            
 
@@ -181,35 +183,36 @@ horizontal: false
 
 
 ​    
-    <!-- Contributions Section -->
-    <section id="section4">
-        <hr>
-        <h2>Smartphone Based Computational Microscope</h2>
-        <p>
-        The reduction of the size and cost of microscopes creates new possibilities for disease screening and health care in resource-limited settings. Smartphones and mobile devices can be useful for the construction of compact and portable imaging devices, by replacing expensive and bulky optical instruments with state-of-the-art cameras, high-performance processors, and network connectivity in a compact footprint. We propose a smartphone-mountable computational microscope that achieves wide-field and high-resolution imaging, based on the Fourier ptychographic (FP) microscopy technique. Our device uses the smartphone’s built-in camera for microscopy imaging, the display screen for programmable illumination, and the computational power of the smartphone processors for FP image reconstruction. With a compact and lightweight optics module and a custom-built application, we can transform a regular smartphone into a high-performance microscope device with a space-bandwidth product exceeding that of regular benchtop microscopes. Our device achieves a half-pitch resolution of 870 nm over a wide field-of-view of 2.1 × 1.6 $mm^2$ with amplitude, phase, and color imaging capabilities. As global health issues continue to persist and new epidemic challenges arise, we believe that our smartphone microscopy technology can effectively address the clinical needs in point-of-care environments.
-        </p>
-    <h4>Relevant publications</h4>
-    <ul>
-    <li>Kyung Chul Lee, Kyungwon Lee, Jaewoo Jung, Se Hee Lee, Donghyun Kim, and Seung Ah Lee. A smartphone-based fourier ptychographic microscope using the display screen for illumination. ACS Photonics, 8(5):1307–1315, 2021. [<a href="https://doi.org/10.1021/acsphotonics.1c00350">Link</a>]</li>
-    <li>Shiqi Xu, Xi Yang, Paul Ritter, Xiang Dai, Kyung Chul Lee, Lucas Kreiss, Kevin C Zhou, Kanghyun Kim, Amey Chaware, Jadee Neff, et al. Tensorial tomographic fourier ptychography with applications to muscle tissue imaging. Advanced Photonics, 6(2):026004–026004, 2024. [<a href="https://doi.org/10.1117/1.AP.6.2.026004">Link</a>]</li>
-    </ul>    
-    <img src="/assets/img/research_preview/smartphone.jpg" alt="Sized Image">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/71nAhFhXI4A?si=GOdraXenvdKo4IVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
+​    <!-- Contributions Section -->
+​    <section id="section4">
+​        <hr>
+​        <h2>Smartphone Based Computational Microscope</h2>
+​        <p>
+​        The reduction of the size and cost of microscopes creates new possibilities for disease screening and health care in resource-limited settings. Smartphones and mobile devices can be useful for the construction of compact and portable imaging devices, by replacing expensive and bulky optical instruments with state-of-the-art cameras, high-performance processors, and network connectivity in a compact footprint. We propose a smartphone-mountable computational microscope that achieves wide-field and high-resolution imaging, based on the Fourier ptychographic (FP) microscopy technique. Our device uses the smartphone’s built-in camera for microscopy imaging, the display screen for programmable illumination, and the computational power of the smartphone processors for FP image reconstruction. With a compact and lightweight optics module and a custom-built application, we can transform a regular smartphone into a high-performance microscope device with a space-bandwidth product exceeding that of regular benchtop microscopes. Our device achieves a half-pitch resolution of 870 nm over a wide field-of-view of 2.1 × 1.6 $mm^2$ with amplitude, phase, and color imaging capabilities. As global health issues continue to persist and new epidemic challenges arise, we believe that our smartphone microscopy technology can effectively address the clinical needs in point-of-care environments.
+​        </p>
+​    <h4>Relevant publications</h4>
+​    <ul>
+​    <li>Kyung Chul Lee, Kyungwon Lee, Jaewoo Jung, Se Hee Lee, Donghyun Kim, and Seung Ah Lee. A smartphone-based fourier ptychographic microscope using the display screen for illumination. ACS Photonics, 8(5):1307–1315, 2021. [<a href="https://doi.org/10.1021/acsphotonics.1c00350">Link</a>]</li>
+​    <li>Shiqi Xu, Xi Yang, Paul Ritter, Xiang Dai, Kyung Chul Lee, Lucas Kreiss, Kevin C Zhou, Kanghyun Kim, Amey Chaware, Jadee Neff, et al. Tensorial tomographic fourier ptychography with applications to muscle tissue imaging. Advanced Photonics, 6(2):026004–026004, 2024. [<a href="https://doi.org/10.1117/1.AP.6.2.026004">Link</a>]</li>
+​    </ul>    
+​    <img src="/assets/img/research_preview/smartphone.jpg" alt="Sized Image">
+​    <iframe width="560" height="315" src="https://www.youtube.com/embed/71nAhFhXI4A?si=GOdraXenvdKo4IVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+​    </section>
 
 
 ​    
 ​    
-    <section id="section5">
-        <hr>
-        <h2>Virtual Staining for Digital Pathology</h2>
-        <p>
-        Virtual staining techniques now enable the transformation of label-free images into clinically standard stained images; however, the extensive costs and time requirements of labelled dataset generation impede its widespread use in clinical settings. We aim to implement semi-supervised learning for virtual staining to enable high-fidelity results while reducing the need for labor-intensive dataset generation. To achieve this, we designed a neural network architecture that digitally stains label-free images of unstained tissue by minimizing style feature differences between the outputs of stained and unstained raw images. We have compared the output from the virtual staining network with various training strategy including supervised training with end to end and cascaded architecture, unsupervised training, and our semi-supervised training. Additionally, for consistency in comparison, we prepared a unstained slide and a well-stained slide from the same tissue block. While minor differences in cellular features may exist between the slides, our methods exhibits the best performance among the methods as well as their overall tissue structures remain comparable. Our approach is particularly valuable for computational microscopy techniques that enable various label-free imaging applications, where generating paired datasets is challenging, such as in 3D pathology and immunohistochemistry staining.
-        </p>
-    <h4>Relevant publications</h4>
-    <ul>
-      <li>Kyung Chul Lee, Hyesuk Che, Roarke Horstmeyer, and Seung Ah Lee. Semi-supervised virtual staining for high-throughput and label-free histopathology. Under Review, 2024
-      <li>Lucas Kreiss, Shaowei Jiang, Xiang Li, Shiqi Xu, Kevin C Zhou, Kyung Chul Lee, Alexander Mu ̈hlberg, Kanghyun Kim, Amey Chaware, Michael Ando, et al. Digital staining in optical microscopy using deep learning-a review. PhotoniX, 4(1):34, 2023. [<a href="https://doi.org/10.1186/s43074-023-00113-4">Link</a>]</li>
-    	<li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring h&e stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]</li>
-    
+​    <section id="section5">
+​        <hr>
+​        <h2>Virtual Staining for Digital Pathology</h2>
+​        <p>
+​        Virtual staining techniques now enable the transformation of label-free images into clinically standard stained images; however, the extensive costs and time requirements of labelled dataset generation impede its widespread use in clinical settings. We aim to implement semi-supervised learning for virtual staining to enable high-fidelity results while reducing the need for labor-intensive dataset generation. To achieve this, we designed a neural network architecture that digitally stains label-free images of unstained tissue by minimizing style feature differences between the outputs of stained and unstained raw images. We have compared the output from the virtual staining network with various training strategy including supervised training with end to end and cascaded architecture, unsupervised training, and our semi-supervised training. Additionally, for consistency in comparison, we prepared a unstained slide and a well-stained slide from the same tissue block. While minor differences in cellular features may exist between the slides, our methods exhibits the best performance among the methods as well as their overall tissue structures remain comparable. Our approach is particularly valuable for computational microscopy techniques that enable various label-free imaging applications, where generating paired datasets is challenging, such as in 3D pathology and immunohistochemistry staining.
+​        </p>
+​    <h4>Relevant publications</h4>
+​    <ul>
+​      <li>Kyung Chul Lee, Hyesuk Che, Roarke Horstmeyer, and Seung Ah Lee. Semi-supervised virtual staining for high-throughput and label-free histopathology. Under Review, 2024
+​      <li>Lucas Kreiss, Shaowei Jiang, Xiang Li, Shiqi Xu, Kevin C Zhou, Kyung Chul Lee, Alexander Mu ̈hlberg, Kanghyun Kim, Amey Chaware, Michael Ando, et al. Digital staining in optical microscopy using deep learning-a review. PhotoniX, 4(1):34, 2023. [<a href="https://doi.org/10.1186/s43074-023-00113-4">Link</a>]</li>
+​    	<li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring h&e stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]</li>
+​    
+
     <img src="/assets/img/research_preview/vs.jpg" alt="Sized Image">
