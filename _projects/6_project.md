@@ -90,22 +90,13 @@ category: computational microscopy
         <section id="section1">
             <hr>
             <h2>Phase Mask Design for Lensless Cameras</h2>
-            <h4>Problem Statement</h4>
             <p>
-            Lensless cameras are a novel class of computational imaging devices, in which the lenses are replaced with a thin mask with 2D point spread functions (PSFs) to achieve ultra-compact and low-cost hardware. However, the high costs and limited scalability with conventional fabrication methods are not ideal for mass production of designed lensless cameras.
+            Lensless cameras are a novel class of computational imaging devices, in which the lenses are replaced with a thin mask with 2D point spread functions (PSFs) to achieve ultra-compact and low-cost hardware. However, the high costs and limited scalability with conventional fabrication methods are not ideal for mass production of designed lensless cameras. We propose a method for high-throughput fabrication of lensless cameras designed with arbitrary PSFs for various imaging tasks. The workflow of our method includes designing the smooth phase mask profiles for a given PSF pattern and then fabricating the mask in a single shot via the gray-scale lithography technique. We have shown that our method can be used for a flexible production of custom lensless cameras with various pre-designed PSFs and effectively obtain images of the scene via computational image reconstruction. We demonstrate the potential applications of our custom lensless cameras, including the deployment of the learned reconstruction networks for fast imaging and fingerprint detection via optical template matching. Our work provides for the first time a programmable and high-throughput way to construct lensless cameras with custom phase masks by combining a phase-retrieval-based design algorithm and the single-shot grayscale lithography. The experimental results shown in our work demonstrate a solid potential for manufacturing and deploying compact lensless cameras for diverse real-world imaging applications.
             </p>
-            <h4>Methods</h4>
-            <p>
-            We propose a method for high-throughput fabrication of lensless cameras designed with arbitrary PSFs for various imaging tasks. The workflow of our method includes designing the smooth phase mask profiles for a given PSF pattern and then fabricating the mask in a single shot via the gray-scale lithography technique.
-            </p>
-            <h4>Results</h4>
-            <p>
-            We show that our method can be used for a flexible production of custom lensless cameras with various pre-designed PSFs and effectively obtain images of the scene via computational image reconstruction. We demonstrate the potential applications of our custom lensless cameras, including the deployment of the learned reconstruction networks for fast imaging and fingerprint detection via optical template matching.
-            </p>
-            <h4>Contributions</h4>
-            <p>
-            Our work provides for the first time a programmable and high-throughput way to construct lensless cameras with custom phase masks by combining a phase-retrieval-based design algorithm and the single-shot grayscale lithography. The experimental results shown in our work demonstrate a solid potential for manufacturing and deploying compact lensless cameras for diverse real-world imaging applications.
-            </p>
+            <ul>
+        <li>[1] Kyung Chul Lee, Junghyun Bae, Nakkyu Baek, Jaewoo Jung, Wook Park, and Seung Ah Lee. Design and single-shot fabrication of lensless cameras with arbitrary point spread functions. Optica, 10(1):72–80, 2023. [Link] </li>
+        <li>[2] Yujin Lee, Hyesuk Chae, Kyung Chul Lee, Nakkyu Baek, Taeyoung Kim, Jaewoo Jung, and Seung Ah Lee. Fabrication of integrated lensless cameras via uv-imprint lithography. IEEE Photonics Journal, 14(2):1–8, 2022. [Link]</li>
+        </ul>
         </section>
         
         
@@ -113,46 +104,51 @@ category: computational microscopy
         <section id="section2">
             <hr>
             <h2>Single-shot Multiplexed Imaging via Customized Lensless Cameras</h2>
-            <h3>Problem Statement</h3>
             <p>
             Lensless imaging with 2D PSFs decouples one-to-one mapping between each position in the scene and the sensor pixels, enabling single-shot multiplexed measurements without using superpixels. We have built various type of customized lensless cameras to obtain multiplexed information from the single shot lensless measurments.
             </p>
-            <h3>High Speed Eyetracker with Lensless Imaging</h3>
+            <h4>High Speed Eyetracker with Lensless Imaging</h4>
             <p>
             We have developed a goggle-type eye tracker featuring a low-cost, high-speed lensless camera designed to monitor eye movements in individuals with neurodegenerative diseases. By combining a rolling shutter image sensor with lensless computational imaging, the system reconstructs a sequence of time-resolved images from a single snapshot, significantly enhancing the camera's frame rate from 15 Hz to 480 Hz.
             </p>
-            <h3>Snapshot Hyperspectral Imaging with Lensless Camera</h3>
+            <h4>Snapshot Hyperspectral Imaging with Lensless Camera</h4>
             <p>
             Our device combines a linear variable filter and a phase mask to encode spectral information onto a monochromatic image sensor, enabling the recovery of hyperspectral image stacks from a single measurement. This is achieved by leveraging the spectral information encoded in different regions of the 2D point spread function. Using our prototype, we demonstrate the acquisition of hyperspectral images spanning wavelengths from 410 to 800 nm through single-shot lensless measurements.
             </p>
-            <h3>Privacy Preserving Imaging via Shift-Variant Lensless Camera</h3>
+            <h4>Privacy Preserving Imaging via Shift-Variant Lensless Camera</h4>
             <p>
             Cameras serve as essential tools for collecting information from the surrounding environment and providing feedback to users, yet they pose a risk to privacy. Here, we propose a method to encrypt the scene at the hardware level by designing the forward model of a lensless camera with engineered shift-variant transfer function and to decode the encrypted scene with a physics-based neural network.
             </p>
+            <ul>
+        <li>[1] Taeyoung Kim, Kyung Chul Lee, Kyungwon Lee, Nakkyu Baek, Jaewoo Jung, Eosu Kim, Bobae Park, Junghee Ha, Keun You Kim, Young-Seok Seo, and Seung Ah Lee. High-speed lensless eye tracker for microsaccade measurement. In SPIE Advanced Biophotonics Conference, 2024. [Link]
+    </li>
+        <li>[2] Taeyoung Kim, Kyung Chul Lee, Nakkyu Baek, Hyesuk Chae, and Seung Ah Lee. Aperture-encoded snapshot hyperspectral imaging with a lensless camera. APL Photonics, 8(6), 2023. [Link]
+    </li>
+    		<li>[3] Kyung Chul Lee, Donggeun Bae, and Seung Ah Lee. Privacy-preserving imaging via ultra-thin lensless cameras with arbitrary shift-variant point spread function. Manuscript Prep.
+    		</li>
+        </ul>
         </section>
+        
+        
         <!-- Contributions Section -->
         <section id="section3">
             <hr>
             <h2>Regularized Phase Retrieval for High-Speed Fourier Ptychography</h2>
             <h3>Problem Statement</h3>
             <p>
-            Fourier ptychography (FP) is a powerful computational imaging technique that provides super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space.
-            </p>
-            <h3>Methods</h3>
-            <p>
-            To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using the alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements.
-            </p>
-            <h3>Results</h3>
-            <p>
-            The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling.
-            </p>
-            <h3>Contributions</h3>
-            <p>
-            Our proposed algorithm achieves high-quality FP reconstruction along with the improvement of
+            Fourier ptychography (FP) is a powerful computational imaging technique that provides super-resolution and quantitative phase imaging capabilities by scanning samples in Fourier space with angle-varying illuminations. However, the image reconstruction in FP is inherently ill-posed, particularly when the measurements are noisy and have insufficient data redundancy in the Fourier space. To improve FP reconstruction in high-throughput imaging scenarios, we propose a regularized FP reconstruction algorithm utilizing anisotropic total variation (TV) and Tikhonov regularizations for the object and pupil functions, respectively. To solve this regularized FP problem, we formulate a reconstruction algorithm using the alternating direction method of multipliers and show that our approach successfully recovers high-quality images with sparsely sampled and/or noisy measurements. The results are quantitatively and qualitatively compared against various FP reconstruction algorithms to analyze the effect of regularization under harsh imaging conditions. In particular, we demonstrate the effectiveness of our method on the real experimental FP microscopy images, where the TV regularizer effectively suppresses the measurement noise while maintaining the edge information in the biological specimen and helps retrieve the correct amplitude and phase images even under insufficient sampling. Our proposed algorithm achieves high-quality FP reconstruction along with the improvement of
     the speed and the cost of the FP data acquisition process without sacrificing image quality. We believe that our FP reconstruction algorithm will be of great interest to the optics and imaging community, particularly as it further impacts various extensions of FP as well as real-space ptychography, which share a common algorithmic
     foundation.
             </p>
+            <ul>
+        <li>[1] Kyung Chul Lee, Hyesuk Chae, Shiqi Xu, Kyungwon Lee, Roarke Horstmeyer, Seung Ah Lee, and Byung-Woo Hong. Anisotropic regularization for sparsely sampled and noise-robust fourier ptychography. Optics Express, 32(14):25343–25361, 2024. [Link]
+    </li>
+        <li>[2] Hyeongyu Kim, Kyungwon Kim, Kyung Chul Lee, Seung Ah Lee, and Dosik Hwang. Hybrid physics informed machine learning for fourier ptychography. Under Review, 2024</li>
+        </ul>    
         </section>
+    
+        
+        
         <!-- Contributions Section -->
         <section id="section4">
             <hr>
@@ -174,6 +170,12 @@ category: computational microscopy
             As global health issues continue to persist and new epidemic challenges arise, we believe that our smartphone microscopy technology can effectively address the clinical needs in point-of-care environments.
             </p>
         </section>
+        <ol>
+        <li></li>
+        <li></li>
+        </ol>
+        
+        
         <!-- Contributions Section -->
         <section id="section5">
             <hr>
