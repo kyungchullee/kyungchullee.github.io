@@ -129,7 +129,9 @@ horizontal: false
       <li>Yujin Lee, Hyesuk Chae, Kyung Chul Lee, Nakkyu Baek, Taeyoung Kim, Jaewoo Jung, and Seung Ah Lee. Fabrication of integrated lensless cameras via uv-imprint lithography. IEEE Photonics Journal, 14(2):1–8, 2022. [<a href="https://ieeexplore.ieee.org/document/9730042">Link</a>]</li>
     </ul>
   <img src="/assets/img/research_preview/phasemask.jpg" alt="Sized Image">
+  <img src="/assets/img/research_preview/phasemask.gif" alt="Sized Image">
 </section>
+
 
 
 
