@@ -727,13 +727,14 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .preview {
-        min-width: 200px;
+        min-width: 100px;
         max-width: 300px;
         height: auto;
         margin-right: 1rem;
+        margin-bottom: 0rem;
       }
       .abbr {
-        height: 2rem;
+        height: 2.5rem;
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
