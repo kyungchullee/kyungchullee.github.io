@@ -1,7 +1,7 @@
 ---
 layout: photo_set
 title: Acknowledgements
-permalink: /ACK/
+permalink: /photos/ACK/
 description: "An example photo gallery."
 
 
@@ -11,5 +11,4 @@ photos:
 
 
 ---
-
 
