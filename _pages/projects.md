@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Computational Optics Across Scales
 permalink: /research/
 description: 
 nav: true
