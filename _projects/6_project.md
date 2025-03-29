@@ -5,7 +5,6 @@ description:
 img: assets/img/smear.jpg
 importance: 2
 category: computational microscopy
-related_publications: false
 ---
 
 <!-- External Libraries -->
