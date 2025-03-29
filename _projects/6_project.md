@@ -5,11 +5,9 @@ description:
 img: assets/img/smear.jpg
 importance: 2
 category: computational microscopy
-related_publications: false
 ---
 
 <!-- External Libraries -->
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Titillium+Web:400,600,300" rel="stylesheet">
