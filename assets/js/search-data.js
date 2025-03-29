@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research",
-          title: "research",
+  },{id: "nav-computational-optics-across-scales",
+          title: "Computational Optics Across Scales",
           description: "",
           section: "Navigation",
           handler: () => {
