@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Kyung Chul
 middle_name: 
 last_name: Lee
-contact_note: > kyungchul.eee@gmail.com
+contact_note: kyungchul.eee@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: > #
 keywords: # add your own keywords or leave empty
