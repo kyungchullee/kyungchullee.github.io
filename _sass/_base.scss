@@ -728,10 +728,10 @@ footer.sticky-bottom {
     li {
       margin-bottom: 0.5rem;
       .preview {
-        // min-width: 50px;
-        // max-width: 200px;
-        height: 200px;
-        width: auto;
+        min-width: 50px;
+        max-width: 200px;
+        // height: 200px;
+        // width: auto;
         margin-right: 1rem;
         margin-bottom: 0rem;
       }
