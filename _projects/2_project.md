@@ -5,6 +5,7 @@ description:
 img: assets/img/PM.jpg
 importance: 2
 category: computational cameras
+related_publications: false
 ---
 
 Advances in image sensor technology and miniaturized optics have enabled the development of ultra-compact and high-quality cameras for everyday use. However, while the pixel resolution of cameras continues to increase, there are physical limits to reducing the size and cost of the entire camera module. As an alternative approach, various lensless imaging methods, which replace the lenses with thin light-modulating masks, have been recently developed. In lensless cameras, the entire module can be miniaturized by reducing the thickness of the lens elements as well as the focusing distance of the lenses. The masks modulate the incident light from the scene, and the image sensors capture the intensity distribution of the modulated light field. With the knowledge of the mask’s transfer function, the encoded intensity information of the scene can be recovered through computational processing of the raw measurement that is otherwise unidentifiable.
