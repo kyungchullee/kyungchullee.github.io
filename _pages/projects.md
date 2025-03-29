@@ -21,7 +21,7 @@ horizontal: false
 <!-- Custom Styling -->
 
 <style>
-    body {
+	.main-text{
         font-family: "Titillium Web", sans-serif;
         font-weight: 300;
         font-size: 17px;
@@ -38,6 +38,7 @@ horizontal: false
     height: 0;
     overflow: hidden;
 }
+
 
 
 
@@ -103,6 +104,12 @@ horizontal: false
 
 
 <!-- pages/projects.md --> 
+
+
+
+<div class="main-text">
+
+<div class="main-text">
 
 <section id="abstract">
     <hr>
@@ -218,5 +225,5 @@ horizontal: false
 	<img src="/assets/img/research_preview/vs.jpg" alt="Sized Image">
 
 
-​    
+</div>    
 
