@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: research
 permalink: /research/
 description: 
 nav: true
@@ -111,6 +111,7 @@ horizontal: false
 
 <div class="main-text">
 
+<div class="main-text">
 <section id="abstract">
     <hr>
     <p>
@@ -122,6 +123,7 @@ horizontal: false
           <li><a href="#section4">Smartphone Based Computational Microscope</a></li>
           <li><a href="#section5">Virtual Staining for Digital Pathology</a></li>
         </ul>
+
 
 
 <section id="section1">
@@ -221,9 +223,10 @@ horizontal: false
 <ul>
   <li>Kyung Chul Lee, Hyesuk Che, Roarke Horstmeyer, and Seung Ah Lee. Semi-supervised virtual staining for high-throughput and label-free histopathology. Under Review, 2024
   <li>Lucas Kreiss, Shaowei Jiang, Xiang Li, Shiqi Xu, Kevin C Zhou, Kyung Chul Lee, Alexander Mu ̈hlberg, Kanghyun Kim, Amey Chaware, Michael Ando, et al. Digital staining in optical microscopy using deep learning-a review. PhotoniX, 4(1):34, 2023. [<a href="https://doi.org/10.1186/s43074-023-00113-4">Link</a>]</li>
-	<li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring h&e stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]</li>
+	<li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring H&E stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]</li>
 	<img src="/assets/img/research_preview/vs.jpg" alt="Sized Image">
-
-
 </div>    
+
+
+
 
