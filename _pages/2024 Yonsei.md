@@ -1,7 +1,7 @@
 ---
 layout: photo_set
 title: 2024 Yonsei
-permalink: /photos/2024 Yonsei/
+permalink: /2024 Yonsei/
 description: 
 
 
