@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
 description: 
 nav: true
@@ -9,107 +9,10 @@ display_categories: [computational cameras, computational microscopy, artistic p
 horizontal: false
 ---
 
-<!-- External Libraries -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Titillium+Web:400,600,300" rel="stylesheet">
-<link rel="stylesheet" href="./static/css/bulma.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-<!-- Custom Styling -->
-
-<style>
-	.main-text{
-        font-family: "Titillium Web", sans-serif;
-        font-weight: 300;
-        font-size: 17px;
-        margin: auto;
-        max-width: 1100px;
-    }
-    img {
-      width: 100%; /* makes the image responsive, adjusting to the width of its container */
-      height: auto; /* maintains the aspect ratio of the image */
-  }
-   .video-responsive {
-    position: center;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-}
-
-
-
-
-
-    h1, h2, h3 {
-        font-weight: 600;
-    }
-    
-    h1 {
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    h2 {
-        font-size: 1.5em;
-        margin: 16px 0 4px;
-    }
-    
-    p, ul {
-        line-height: 1.5em;
-        text-align: justify;
-    }
-    
-    h4 {
-    		font-weight: 600;
-        font-size: 1em;
-        margin: 16px 0 4px;
-    }
-    
-    .container {
-        margin: auto;
-        padding: 16px;
-    }
-    
-    .paper-btn {
-        display: inline-block;
-        margin: 8px;
-        padding: 8px;
-        background-color: #665f5c;
-        color: white !important;
-        font-size: 16px;
-        font-weight: 600;
-        border-radius: 4px;
-        text-align: center;
-        text-decoration: none;
-    }
-    
-    .paper-btn:hover {
-        opacity: 0.85;
-    }
-    .video-container {
-        text-align: center;  /* Centering the content inside */
-    }
-    
-    iframe {
-        display: block;  /* Change from inline to block */
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-</style>
-
 
 
 <!-- pages/projects.md --> 
 
-
-
-<div class="main-text">
-
-<div class="main-text">
 
 <div class="main-text">
 <section id="abstract">
@@ -225,7 +128,8 @@ horizontal: false
   <li>Lucas Kreiss, Shaowei Jiang, Xiang Li, Shiqi Xu, Kevin C Zhou, Kyung Chul Lee, Alexander Mu ̈hlberg, Kanghyun Kim, Amey Chaware, Michael Ando, et al. Digital staining in optical microscopy using deep learning-a review. PhotoniX, 4(1):34, 2023. [<a href="https://doi.org/10.1186/s43074-023-00113-4">Link</a>]</li>
 	<li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring H&E stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]</li>
 	<img src="/assets/img/research_preview/vs.jpg" alt="Sized Image">
-</div>    
+
+
 
 
 

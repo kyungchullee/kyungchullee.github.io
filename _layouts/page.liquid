@@ -1,6 +1,98 @@
 ---
 layout: default
 ---
+
+<!-- External Libraries -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Titillium+Web:400,600,300" rel="stylesheet">
+<link rel="stylesheet" href="./static/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+<!-- Custom Styling -->
+
+<style>
+	.main-text{
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-size: 17px;
+        margin: auto;
+        max-width: 1100px;
+    }
+    img {
+      width: 100%; /* makes the image responsive, adjusting to the width of its container */
+      height: auto; /* maintains the aspect ratio of the image */
+  }
+   .video-responsive {
+    position: center;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 16px 0 4px;
+}
+
+p, ul {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+h4 {
+		font-weight: 600;
+    font-size: 1em;
+    margin: 16px 0 4px;
+}
+
+.container {
+    margin: auto;
+    padding: 16px;
+}
+
+.paper-btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    background-color: #665f5c;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.paper-btn:hover {
+    opacity: 0.85;
+}
+.video-container {
+    text-align: center;  /* Centering the content inside */
+}
+
+iframe {
+    display: block;  /* Change from inline to block */
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+
+
+
+
+
 {% if page._styles %}
   <!-- Page/Post style -->
   <style type="text/css">
@@ -8,9 +100,10 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
+
+<div class="main-text">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">{{ Computational Optics Across Scales }}</h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
 
