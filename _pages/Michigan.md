@@ -2,7 +2,7 @@
 layout: photo_set
 title: University of Michigan
 permalink: /Michigan/
-description: "I am currently a Postdoctoral Associate in the Department of Biomedical Engineering at the University of Michigan, working in the High Performance Computational Optics Lab under the mentorship of Dr. Kevin Zhou."
+description: "I have moved to the United States to join the University of Michigan as a Postdoctoral Associate in Biomedical Engineering! I am incredibly excited to work under the guidance of Dr. Kevin Zhou, a truly exceptional mentor."
 rank : 6
 
 photos:
