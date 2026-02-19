@@ -12,14 +12,30 @@ nav_order: 2
   {% comment %}
     Get all "photo_set" pages and display a list with links to them.
   {% endcomment %}
-  {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+  {% assign photo_pages = site.pages | where: "layout", "photo_set" | sort: "rank" %}
   {% for photo_page in photo_pages %}
 
 
-    <p><a href="{{ photo_page.url | prepend: site.baseurl }}">{{ photo_page.title }}<br><img src="{{ site.baseurl }}/images/photos/{{ photo_page.title }}-{{ 1 }}.jpg" width="80%" alt="Photo {{ 1 }} from {{ page.photos.set | capitalize }}"></a></p>
+    <div style="margin-bottom: 40px;"> <p>
+        <a href="{{ photo_page.url | prepend: site.baseurl }}">
+          <b>{{ photo_page.title }}</b><br>
+          <img src="{{ site.baseurl }}/images/photos/{{ photo_page.title }}-1.jpg" width="80%" alt="{{ photo_page.title }}">
+        </a>
+      </p>
+
+      {% if photo_page.description %}
+        <p style="color: #666; font-style: italic;">
+          {{ photo_page.description }}
+        </p>
+      {% endif %}
+
+    </div>
 
 
 
   {% endfor %}
 </ul>
+
+
+
 

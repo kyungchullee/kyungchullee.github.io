@@ -1,13 +1,13 @@
 ---
 layout: photo_set
-title: 2022 GRC
-permalink: /2022 GRC/
+title: 2023 CES
+permalink: /2023 CES/
 description: "An example photo gallery."
-
+rank : 5
 
 photos:
-    set: 2022 GRC
-    size: 4
+    set: 2023 CES
+    size: 5
 
 
 ---
