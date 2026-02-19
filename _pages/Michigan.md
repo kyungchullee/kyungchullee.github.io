@@ -6,7 +6,7 @@ description: "I have moved to the United States to join the University of Michig
 rank : 6
 
 photos:
-    set: Michigan
+    set: University of Michigan
     size: 2
 
 

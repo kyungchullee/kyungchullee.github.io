@@ -7,7 +7,7 @@ rank : 3
 
 
 photos:
-    set: SNU
+    set: Seoul National University
     size: 1
 
 
