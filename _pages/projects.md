@@ -128,6 +128,7 @@ horizontal: false
   <li>Lucas Kreiss, Shaowei Jiang, Xiang Li, Shiqi Xu, Kevin C Zhou, Kyung Chul Lee, Alexander Mu ̈hlberg, Kanghyun Kim, Amey Chaware, Michael Ando, et al. Digital staining in optical microscopy using deep learning-a review. PhotoniX, 4(1):34, 2023. [<a href="https://doi.org/10.1186/s43074-023-00113-4">Link</a>]</li>
 	<li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring H&E stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]</li>
 	<img src="/assets/img/research_preview/vs.jpg" alt="Sized Image">
+  <img src="/assets/img/research_preview/vs.gif" alt="Sized Image">
 
 
 
