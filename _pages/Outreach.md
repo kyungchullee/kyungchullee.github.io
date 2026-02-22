@@ -7,7 +7,7 @@ rank : 7
 
 photos:
     set: Outreach & Communication
-    size: 5
+    size: 6
 
 
 ---

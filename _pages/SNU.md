@@ -8,7 +8,7 @@ rank : 5
 
 photos:
     set: Seoul National University
-    size: 1
+    size: 3
 
 
 ---
