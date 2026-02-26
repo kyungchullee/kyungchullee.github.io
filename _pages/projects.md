@@ -19,6 +19,7 @@ horizontal: false
     <hr>
     <p>
         My research centers on developing optical imaging systems by jointly designing optical hardware and image processing algorithms for applications ranging from the microscale (microscopes) to the macroscale (cameras). I am interested in all aspects of computational imaging, including (1) designing advanced computational algorithms, (2) optimizing programmable optical hardware, and (3) applying these innovations to real-world scenarios to maximize imaging throughput. More specifically, my work during Ph.D. has primarily focused on computational phase retrieval for designing and imaging phase profiles. I have invented a novel design and single-shot fabrication method of phase masks for mask-based lensless imaging and built various types of multiplexed imaging systems based on lensless imaging. Additionally, I have contributed to the development of high-speed phase imaging techniques based on Fourier ptychography, significantly reducing the large dataset requirements of conventional reconstruction methods. Detailed information about my experiences is summarized in the following sections. Some projects include:
+        <img src="/assets/img/research_preview/overview.jpg" alt="Sized Image">
         <ul>
           <li><a href="#section1">Phase Mask Design for Lensless Cameras</a></li>
           <li><a href="#section2">Single-shot Multiplexed Imaging via Customized Lensless Cameras</a></li>
@@ -124,7 +125,7 @@ horizontal: false
     </p>
 <h4>Relevant publications</h4>
 <ul>
-  <li>Kyung Chul Lee, Hyesuk Che, Roarke Horstmeyer, and Seung Ah Lee. Semi-supervised virtual staining for high-throughput and label-free histopathology. Under Review, 2024
+  <li>Kyung Chul, LEE et al. Semi-supervised virtual staining using learned-illumination Fourier ptychography for high-speed label-free histopathology. Journal of Physics: Photonics, 2026, 8.1: 015025.
   <li>Lucas Kreiss, Shaowei Jiang, Xiang Li, Shiqi Xu, Kevin C Zhou, Kyung Chul Lee, Alexander Mu ̈hlberg, Kanghyun Kim, Amey Chaware, Michael Ando, et al. Digital staining in optical microscopy using deep learning-a review. PhotoniX, 4(1):34, 2023. [<a href="https://doi.org/10.1186/s43074-023-00113-4">Link</a>]</li>
 	<li>Hyesuk Chae, Jongho Kim, Joonsung Jeon, Kyungwon Lee, Kyung Chul Lee, Ji Ung Choi, Suki Kang, Soyoung Choi, Geunbae Bang, Jong Ha Lee, et al. Restoring H&E stain in faded slides via phase-to-color virtual staining in near-infrared. APL Photonics, 9(10), 2024. [<a href="https://doi.org/10.1063/5.0226277">Link</a>]</li>
 	<img src="/assets/img/research_preview/vs.jpg" alt="Sized Image">
