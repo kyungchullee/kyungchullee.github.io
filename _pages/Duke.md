@@ -6,7 +6,7 @@ description: During my Ph.D. training, I was awarded a government-funded fellows
 rank : 2
 
 photos:
-    set: Duke
+    set: Duke University
     size: 5
 
 

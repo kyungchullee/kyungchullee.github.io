@@ -6,7 +6,7 @@ description: I received my Ph.D. in Electrical Engineering from Yonsei Universit
 rank : 1
 
 photos:
-    set: Yonsei
+    set: Yonsei University
     size: 7
 
 
