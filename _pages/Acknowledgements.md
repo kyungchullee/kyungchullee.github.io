@@ -6,9 +6,7 @@ description: I have been truly blessed with several opportunities to have my wor
 rank: 4
 
 
-photos:
-    set: Acknowledgements
-    size: 5
+photo_count: 5
 
 
 ---

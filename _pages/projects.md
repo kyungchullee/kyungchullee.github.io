@@ -1,6 +1,7 @@
 ---
 layout: page_research
 title: research
+heading: Computational Imaging Across Scales
 permalink: /projects/
 description: 
 nav: true

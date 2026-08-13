@@ -6,9 +6,7 @@ description: In Spring 2025, our lab relocated to a larger facility at Seoul Nat
 rank : 5
 
 
-photos:
-    set: Seoul National University
-    size: 3
+photo_count: 3
 
 
 ---
