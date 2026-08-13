@@ -32,6 +32,18 @@ select,
   font-family: "Inter", sans-serif;
 }
 
+// Bootstrap/MDB render headings at Light (300), which looks thin and spindly
+// in Inter at large sizes (e.g. the "news"/"publications" section titles).
+// Semibold gives them a solid, clean look consistent with the rest of the site.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
