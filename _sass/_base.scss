@@ -19,6 +19,19 @@ strong {
   color: var(--global-text-color);
 }
 
+// Site font: use Inter (loaded via _config.yml google_fonts) instead of the
+// Roboto that Bootstrap/MDB set on <body>. This file compiles into main.css,
+// which loads after MDB, so it wins the cascade. Headings inherit font-family
+// from <body>, but form controls do not, so they are listed explicitly.
+body,
+input,
+button,
+textarea,
+select,
+.navbar-brand {
+  font-family: "Inter", sans-serif;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
