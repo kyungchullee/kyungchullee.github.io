@@ -44,6 +44,14 @@ h6 {
   font-weight: 600;
 }
 
+// News items (about page) use a very tight table row padding by default.
+// Roughly double the vertical size of each row for more breathing room.
+.news table.table td,
+.news table.table th {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
