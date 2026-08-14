@@ -52,6 +52,12 @@ h6 {
   padding-bottom: 0.6rem;
 }
 
+// Extra vertical space after the news section, before the next heading
+// (e.g. publications) on the about page.
+.news {
+  margin-bottom: 3rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
